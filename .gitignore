@@ -1,0 +1,44 @@
+# ROS 2 Build files
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+
+# C++
+*.o
+*.a
+*.so
+*.out
+*.d
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Generated files
+*.gv
+*.pdf
+
+# Error logs
+error.txt
+build_log.txt
+
+# Frames
+frames_*.gv
+frames_*.pdf

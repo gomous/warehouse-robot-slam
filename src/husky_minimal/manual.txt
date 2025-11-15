@@ -1,0 +1,33 @@
+#Terminal 1
+ros2 launch husky_minimal gazebo_husky.launch.py
+
+
+#Terminal 2
+ros2 launch husky_minimal lio_sam_husky.launch.py
+
+
+#Terminal 3
+quardrupedROS@mousum-IdeaPad-Gaming-3-15IHU6:/workspaces/quardruped$ cd /workspaces/quardruped
+source install/setup.bash
+# Launch joy node
+ros2 run joy joy_node --ros-args -p device_id:=0
+[INFO] [1763180627.293118813] [joy_node]: Opened joystick: Nintendo Co., Ltd. Pro Controller.  deadzone: 0.050000
+
+
+
+
+#Terminal 4
+cd /workspaces/quardruped
+source install/setup.bash
+
+# Launch teleop with correct topic remapping
+ros2 run teleop_twist_joy teleop_node --ros-args \
+  -r cmd_vel:=/diff_drive_controller/cmd_vel_unstamped \
+  -p axis_linear.x:=1 \
+  -p scale_linear.x:=2.0 \
+  -p scale_linear_turbo.x:=4.0 \
+  -p axis_angular.yaw:=3 \
+  -p scale_angular.yaw:=2.5 \
+  -p scale_angular_turbo.yaw:=4.0 \
+  -p enable_button:=4 \
+  -p enable_turbo_button:=5

@@ -1,0 +1,22 @@
+/**:
+  ros__parameters:
+    # Topics
+    pointCloudTopic: "velodyne_points"
+    imuTopic: "imu/data"
+    odomTopic: "odometry/imu"
+
+    # Frames
+    lidarFrame: "velodyne"
+    baselinkFrame: "base_link"
+    odometryFrame: "odom"
+    mapFrame: "map"
+
+    # Sensor Settings
+    N_SCAN: 16
+    Horizon_SCAN: 1800
+    lidarMinRange: 0.3
+    lidarMaxRange: 100.0
+
+    # IMU Settings
+    imuAccNoise: 0.01
+    imuGyrNoise: 0.001

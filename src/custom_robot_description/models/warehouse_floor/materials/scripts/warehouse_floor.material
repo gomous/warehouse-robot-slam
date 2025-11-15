@@ -1,0 +1,15 @@
+material Warehouse/Floor
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture map.png
+        filtering trilinear
+        scale 1 1
+      }
+    }
+  }
+}

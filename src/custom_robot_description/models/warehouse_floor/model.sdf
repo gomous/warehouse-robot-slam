@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="warehouse_floor">
+    <static>true</static>
+    <link name="link">
+      <visual name="floor_visual">
+        <geometry>
+          <box>
+            <size>49.1835 66.81 0.292609</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://warehouse_floor/materials/scripts</uri>
+            <uri>model://warehouse_floor/materials/textures</uri>
+            <name>Warehouse/Floor</name>
+          </script>
+          <shader type="pixel"/>
+        </material>
+      </visual>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>49.1835 66.81 0.292609</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

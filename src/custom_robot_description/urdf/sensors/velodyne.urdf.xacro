@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:macro name="velodyne_sensor" params="parent *origin">
+    
+    <!-- Velodyne Link -->
+    <link name="velodyne">
+      <visual>
+        <geometry>
+          <cylinder radius="0.05" length="0.07"/>
+        </geometry>
+        <material name="red">
+          <color rgba="0.8 0.1 0.1 1.0"/>
+        </material>
+      </visual>
+      
+      <collision>
+        <geometry>
+          <cylinder radius="0.05" length="0.07"/>
+        </geometry>
+      </collision>
+      
+      <inertial>
+        <mass value="0.1"/>
+        <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001"/>
+      </inertial>
+    </link>
+
+    <joint name="velodyne_joint" type="fixed">
+      <parent link="${parent}"/>
+      <child link="velodyne"/>
+      <xacro:insert_block name="origin"/>
+    </joint>
+
+    <!-- Gazebo LiDAR Plugin -->
+    <gazebo reference="velodyne">
+      <sensor type="ray" name="velodyne_sensor">
+        <pose>0 0 0 0 0 0</pose>
+        <visualize>false</visualize>
+        <update_rate>10</update_rate>
+        <ray>
+          <scan>
+            <horizontal>
+              <samples>1800</samples>
+              <min_angle>-${pi}</min_angle>
+              <max_angle>${pi}</max_angle>
+            </horizontal>
+            <vertical>
+              <samples>16</samples>
+              <min_angle>-${15.0*pi/180.0}</min_angle>
+              <max_angle>${15.0*pi/180.0}</max_angle>
+            </vertical>
+          </scan>
+          <range>
+            <min>0.3</min>
+            <max>100.0</max>
+          </range>
+        </ray>
+        <plugin name="gazebo_ros_velodyne_laser_controller" filename="libgazebo_ros_velodyne_laser.so">
+          <topicName>velodyne_points</topicName>
+          <frameName>velodyne</frameName>
+        </plugin>
+      </sensor>
+    </gazebo>
+    
+  </xacro:macro>
+
+</robot>

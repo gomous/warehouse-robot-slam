@@ -1,0 +1,67 @@
+.
+├── CMakeLists.txt
+├── config
+│   └── husky_controllers.yaml
+├── include
+│   └── husky_minimal
+├── launch
+│   ├── gazebo_husky.launch.py
+│   ├── rviz_husky.launch.py
+│   └── teleop.launch.py
+├── meshes
+│   ├── accessories
+│   │   ├── 300_mm_sensor_arch.dae
+│   │   ├── 300_mm_sensor_arch.stl
+│   │   ├── 510_mm_sensor_arch.dae
+│   │   ├── 510_mm_sensor_arch.stl
+│   │   ├── hokuyo_ust10.stl
+│   │   ├── lidar_mount.stl
+│   │   ├── lms1xx_mount.dae
+│   │   ├── lms1xx_mount.stl
+│   │   └── wibotic_bumper.stl
+│   ├── base_link.dae
+│   ├── base_link.stl
+│   ├── bracket_extension_20.stl
+│   ├── bracket_extension_40.stl
+│   ├── bracket_extension_60.stl
+│   ├── bracket_extension_80.stl
+│   ├── bracket_horizontal.stl
+│   ├── bracket_horizontal_large.stl
+│   ├── bracket_vertical.stl
+│   ├── bumper.dae
+│   ├── bumper_extension.dae
+│   ├── large_top_plate.dae
+│   ├── large_top_plate_collision.stl
+│   ├── pacs_full_riser.stl
+│   ├── pacs_partial_riser.stl
+│   ├── pacs_top_plate.stl
+│   ├── top_chassis.dae
+│   ├── top_chassis.stl
+│   ├── top_plate.dae
+│   ├── top_plate.stl
+│   ├── user_rail.dae
+│   ├── user_rail.stl
+│   ├── wheel.dae
+│   └── wheel.stl
+├── package.xml
+├── rviz
+│   └── husky.rviz
+├── src
+├── tree_husky.txt
+└── urdf
+    ├── accessories
+    │   ├── flir_blackfly_mount.urdf.xacro
+    │   ├── hokuyo_ust10.urdf.xacro
+    │   ├── intel_realsense.urdf.xacro
+    │   ├── sensor_arch.urdf.xacro
+    │   ├── sick_lms1xx_mount.urdf.xacro
+    │   └── vlp16_mount.urdf.xacro
+    ├── decorations.urdf.xacro
+    ├── empty.urdf
+    ├── husky.urdf.xacro
+    ├── husky_ros2.urdf.xacro
+    ├── husky_ros2.urdf.xacro.old
+    ├── pacs.urdf.xacro
+    └── wheel.urdf.xacro
+
+10 directories, 54 files
