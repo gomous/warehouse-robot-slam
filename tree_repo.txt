@@ -1,0 +1,2801 @@
+.
+├── build
+│   ├── COLCON_IGNORE
+│   ├── custom_robot_description
+│   │   ├── CMakeCache.txt
+│   │   ├── CMakeFiles
+│   │   │   ├── 3.22.1
+│   │   │   │   ├── CMakeCCompiler.cmake
+│   │   │   │   ├── CMakeCXXCompiler.cmake
+│   │   │   │   ├── CMakeDetermineCompilerABI_C.bin
+│   │   │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│   │   │   │   ├── CMakeSystem.cmake
+│   │   │   │   ├── CompilerIdC
+│   │   │   │   │   ├── CMakeCCompilerId.c
+│   │   │   │   │   ├── a.out
+│   │   │   │   │   └── tmp
+│   │   │   │   └── CompilerIdCXX
+│   │   │   │       ├── CMakeCXXCompilerId.cpp
+│   │   │   │       ├── a.out
+│   │   │   │       └── tmp
+│   │   │   ├── CMakeDirectoryInformation.cmake
+│   │   │   ├── CMakeOutput.log
+│   │   │   ├── CMakeRuleHashes.txt
+│   │   │   ├── CMakeTmp
+│   │   │   ├── Makefile.cmake
+│   │   │   ├── Makefile2
+│   │   │   ├── TargetDirectories.txt
+│   │   │   ├── cmake.check_cache
+│   │   │   ├── custom_robot_description_uninstall.dir
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   ├── build.make
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── compiler_depend.make
+│   │   │   │   ├── compiler_depend.ts
+│   │   │   │   └── progress.make
+│   │   │   ├── progress.marks
+│   │   │   └── uninstall.dir
+│   │   │       ├── DependInfo.cmake
+│   │   │       ├── build.make
+│   │   │       ├── cmake_clean.cmake
+│   │   │       ├── compiler_depend.make
+│   │   │       ├── compiler_depend.ts
+│   │   │       └── progress.make
+│   │   ├── CTestConfiguration.ini
+│   │   ├── CTestCustom.cmake
+│   │   ├── CTestTestfile.cmake
+│   │   ├── Makefile
+│   │   ├── ament_cmake_core
+│   │   │   ├── custom_robot_descriptionConfig-version.cmake
+│   │   │   ├── custom_robot_descriptionConfig.cmake
+│   │   │   ├── package.cmake
+│   │   │   └── stamps
+│   │   │       ├── ament_prefix_path.sh.stamp
+│   │   │       ├── nameConfig-version.cmake.in.stamp
+│   │   │       ├── nameConfig.cmake.in.stamp
+│   │   │       ├── package.xml.stamp
+│   │   │       ├── package_xml_2_cmake.py.stamp
+│   │   │       ├── path.sh.stamp
+│   │   │       └── templates_2_cmake.py.stamp
+│   │   ├── ament_cmake_environment_hooks
+│   │   │   ├── ament_prefix_path.dsv
+│   │   │   ├── local_setup.bash
+│   │   │   ├── local_setup.dsv
+│   │   │   ├── local_setup.sh
+│   │   │   ├── local_setup.zsh
+│   │   │   ├── package.dsv
+│   │   │   └── path.dsv
+│   │   ├── ament_cmake_index
+│   │   │   └── share
+│   │   │       └── ament_index
+│   │   │           └── resource_index
+│   │   │               ├── package_run_dependencies
+│   │   │               │   └── custom_robot_description
+│   │   │               ├── packages
+│   │   │               │   └── custom_robot_description
+│   │   │               └── parent_prefix_path
+│   │   │                   └── custom_robot_description
+│   │   ├── ament_cmake_package_templates
+│   │   │   └── templates.cmake
+│   │   ├── ament_cmake_symlink_install
+│   │   │   ├── ament_cmake_symlink_install.cmake
+│   │   │   └── ament_cmake_symlink_install_uninstall_script.cmake
+│   │   ├── ament_cmake_uninstall_target
+│   │   │   └── ament_cmake_uninstall_target.cmake
+│   │   ├── ament_copyright
+│   │   ├── ament_flake8
+│   │   ├── ament_lint_cmake
+│   │   ├── ament_pep257
+│   │   ├── ament_xmllint
+│   │   ├── cmake_args.last
+│   │   ├── cmake_install.cmake
+│   │   ├── colcon_build.rc
+│   │   ├── colcon_command_prefix_build.sh
+│   │   ├── colcon_command_prefix_build.sh.env
+│   │   ├── install_manifest.txt
+│   │   └── symlink_install_manifest.txt
+│   ├── husky_minimal
+│   │   ├── CMakeCache.txt
+│   │   ├── CMakeFiles
+│   │   │   ├── 3.22.1
+│   │   │   │   ├── CMakeCCompiler.cmake
+│   │   │   │   ├── CMakeCXXCompiler.cmake
+│   │   │   │   ├── CMakeDetermineCompilerABI_C.bin
+│   │   │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│   │   │   │   ├── CMakeSystem.cmake
+│   │   │   │   ├── CompilerIdC
+│   │   │   │   │   ├── CMakeCCompilerId.c
+│   │   │   │   │   ├── a.out
+│   │   │   │   │   └── tmp
+│   │   │   │   └── CompilerIdCXX
+│   │   │   │       ├── CMakeCXXCompilerId.cpp
+│   │   │   │       ├── a.out
+│   │   │   │       └── tmp
+│   │   │   ├── CMakeDirectoryInformation.cmake
+│   │   │   ├── CMakeOutput.log
+│   │   │   ├── CMakeRuleHashes.txt
+│   │   │   ├── CMakeTmp
+│   │   │   ├── Makefile.cmake
+│   │   │   ├── Makefile2
+│   │   │   ├── TargetDirectories.txt
+│   │   │   ├── cmake.check_cache
+│   │   │   ├── husky_minimal_uninstall.dir
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   ├── build.make
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── compiler_depend.make
+│   │   │   │   ├── compiler_depend.ts
+│   │   │   │   └── progress.make
+│   │   │   ├── progress.marks
+│   │   │   └── uninstall.dir
+│   │   │       ├── DependInfo.cmake
+│   │   │       ├── build.make
+│   │   │       ├── cmake_clean.cmake
+│   │   │       ├── compiler_depend.make
+│   │   │       ├── compiler_depend.ts
+│   │   │       └── progress.make
+│   │   ├── CTestConfiguration.ini
+│   │   ├── CTestCustom.cmake
+│   │   ├── CTestTestfile.cmake
+│   │   ├── Makefile
+│   │   ├── ament_cmake_core
+│   │   │   ├── husky_minimalConfig-version.cmake
+│   │   │   ├── husky_minimalConfig.cmake
+│   │   │   ├── package.cmake
+│   │   │   └── stamps
+│   │   │       ├── ament_prefix_path.sh.stamp
+│   │   │       ├── nameConfig-version.cmake.in.stamp
+│   │   │       ├── nameConfig.cmake.in.stamp
+│   │   │       ├── package.xml.stamp
+│   │   │       ├── package_xml_2_cmake.py.stamp
+│   │   │       ├── path.sh.stamp
+│   │   │       └── templates_2_cmake.py.stamp
+│   │   ├── ament_cmake_environment_hooks
+│   │   │   ├── ament_prefix_path.dsv
+│   │   │   ├── local_setup.bash
+│   │   │   ├── local_setup.dsv
+│   │   │   ├── local_setup.sh
+│   │   │   ├── local_setup.zsh
+│   │   │   ├── package.dsv
+│   │   │   └── path.dsv
+│   │   ├── ament_cmake_index
+│   │   │   └── share
+│   │   │       └── ament_index
+│   │   │           └── resource_index
+│   │   │               ├── package_run_dependencies
+│   │   │               │   └── husky_minimal
+│   │   │               ├── packages
+│   │   │               │   └── husky_minimal
+│   │   │               └── parent_prefix_path
+│   │   │                   └── husky_minimal
+│   │   ├── ament_cmake_package_templates
+│   │   │   └── templates.cmake
+│   │   ├── ament_cmake_symlink_install
+│   │   │   ├── ament_cmake_symlink_install.cmake
+│   │   │   └── ament_cmake_symlink_install_uninstall_script.cmake
+│   │   ├── ament_cmake_uninstall_target
+│   │   │   └── ament_cmake_uninstall_target.cmake
+│   │   ├── cmake_args.last
+│   │   ├── cmake_install.cmake
+│   │   ├── colcon_build.rc
+│   │   ├── colcon_command_prefix_build.sh
+│   │   ├── colcon_command_prefix_build.sh.env
+│   │   ├── install_manifest.txt
+│   │   └── symlink_install_manifest.txt
+│   ├── lio_sam
+│   │   ├── CMakeCache.txt
+│   │   ├── CMakeFiles
+│   │   │   ├── 3.22.1
+│   │   │   │   ├── CMakeCCompiler.cmake
+│   │   │   │   ├── CMakeCXXCompiler.cmake
+│   │   │   │   ├── CMakeDetermineCompilerABI_C.bin
+│   │   │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│   │   │   │   ├── CMakeSystem.cmake
+│   │   │   │   ├── CompilerIdC
+│   │   │   │   │   ├── CMakeCCompilerId.c
+│   │   │   │   │   ├── a.out
+│   │   │   │   │   └── tmp
+│   │   │   │   └── CompilerIdCXX
+│   │   │   │       ├── CMakeCXXCompilerId.cpp
+│   │   │   │       ├── a.out
+│   │   │   │       └── tmp
+│   │   │   ├── CMakeDirectoryInformation.cmake
+│   │   │   ├── CMakeOutput.log
+│   │   │   ├── CMakeRuleHashes.txt
+│   │   │   ├── CMakeTmp
+│   │   │   ├── Export
+│   │   │   │   └── share
+│   │   │   │       └── lio_sam
+│   │   │   │           └── cmake
+│   │   │   │               ├── export_lio_sam__rosidl_generator_cExport-release.cmake
+│   │   │   │               ├── export_lio_sam__rosidl_generator_cExport.cmake
+│   │   │   │               ├── export_lio_sam__rosidl_generator_cppExport.cmake
+│   │   │   │               ├── export_lio_sam__rosidl_generator_pyExport-release.cmake
+│   │   │   │               ├── export_lio_sam__rosidl_generator_pyExport.cmake
+│   │   │   │               ├── export_lio_sam__rosidl_typesupport_fastrtps_cExport-release.cmake
+│   │   │   │               ├── export_lio_sam__rosidl_typesupport_fastrtps_cExport.cmake
+│   │   │   │               ├── export_lio_sam__rosidl_typesupport_fastrtps_cppExport-release.cmake
+│   │   │   │               ├── export_lio_sam__rosidl_typesupport_fastrtps_cppExport.cmake
+│   │   │   │               ├── lio_sam__rosidl_typesupport_cExport-release.cmake
+│   │   │   │               ├── lio_sam__rosidl_typesupport_cExport.cmake
+│   │   │   │               ├── lio_sam__rosidl_typesupport_cppExport-release.cmake
+│   │   │   │               ├── lio_sam__rosidl_typesupport_cppExport.cmake
+│   │   │   │               ├── lio_sam__rosidl_typesupport_introspection_cExport-release.cmake
+│   │   │   │               ├── lio_sam__rosidl_typesupport_introspection_cExport.cmake
+│   │   │   │               ├── lio_sam__rosidl_typesupport_introspection_cppExport-release.cmake
+│   │   │   │               └── lio_sam__rosidl_typesupport_introspection_cppExport.cmake
+│   │   │   ├── FindMPI
+│   │   │   │   └── test_mpi_C.bin
+│   │   │   ├── Makefile.cmake
+│   │   │   ├── Makefile2
+│   │   │   ├── TargetDirectories.txt
+│   │   │   ├── ament_cmake_python_build_lio_sam_egg.dir
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   ├── build.make
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── compiler_depend.make
+│   │   │   │   ├── compiler_depend.ts
+│   │   │   │   └── progress.make
+│   │   │   ├── ament_cmake_python_symlink_lio_sam.dir
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   ├── build.make
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── compiler_depend.make
+│   │   │   │   ├── compiler_depend.ts
+│   │   │   │   └── progress.make
+│   │   │   ├── cmake.check_cache
+│   │   │   ├── lio_sam.dir
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   ├── build.make
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── compiler_depend.make
+│   │   │   │   ├── compiler_depend.ts
+│   │   │   │   └── progress.make
+│   │   │   ├── lio_sam__cpp.dir
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   ├── build.make
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── compiler_depend.make
+│   │   │   │   ├── compiler_depend.ts
+│   │   │   │   └── progress.make
+│   │   │   ├── lio_sam__rosidl_generator_c.dir
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   ├── build.make
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── compiler_depend.make
+│   │   │   │   ├── compiler_depend.ts
+│   │   │   │   ├── depend.make
+│   │   │   │   ├── flags.make
+│   │   │   │   ├── link.txt
+│   │   │   │   ├── progress.make
+│   │   │   │   └── rosidl_generator_c
+│   │   │   │       └── lio_sam
+│   │   │   │           ├── msg
+│   │   │   │           │   └── detail
+│   │   │   │           │       ├── cloud_info__functions.c.o
+│   │   │   │           │       └── cloud_info__functions.c.o.d
+│   │   │   │           └── srv
+│   │   │   │               └── detail
+│   │   │   │                   ├── save_map__functions.c.o
+│   │   │   │                   └── save_map__functions.c.o.d
+│   │   │   ├── lio_sam__rosidl_generator_py.dir
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   ├── build.make
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── compiler_depend.make
+│   │   │   │   ├── compiler_depend.ts
+│   │   │   │   ├── depend.make
+│   │   │   │   ├── flags.make
+│   │   │   │   ├── link.txt
+│   │   │   │   ├── progress.make
+│   │   │   │   └── rosidl_generator_py
+│   │   │   │       └── lio_sam
+│   │   │   │           ├── msg
+│   │   │   │           │   ├── _cloud_info_s.c.o
+│   │   │   │           │   └── _cloud_info_s.c.o.d
+│   │   │   │           └── srv
+│   │   │   │               ├── _save_map_s.c.o
+│   │   │   │               └── _save_map_s.c.o.d
+│   │   │   ├── lio_sam__rosidl_typesupport_c.dir
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   ├── build.make
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── compiler_depend.make
+│   │   │   │   ├── compiler_depend.ts
+│   │   │   │   ├── depend.make
+│   │   │   │   ├── flags.make
+│   │   │   │   ├── link.txt
+│   │   │   │   ├── progress.make
+│   │   │   │   └── rosidl_typesupport_c
+│   │   │   │       └── lio_sam
+│   │   │   │           ├── msg
+│   │   │   │           │   ├── cloud_info__type_support.cpp.o
+│   │   │   │           │   └── cloud_info__type_support.cpp.o.d
+│   │   │   │           └── srv
+│   │   │   │               ├── save_map__type_support.cpp.o
+│   │   │   │               └── save_map__type_support.cpp.o.d
+│   │   │   ├── lio_sam__rosidl_typesupport_c__pyext.dir
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   ├── build.make
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── compiler_depend.make
+│   │   │   │   ├── compiler_depend.ts
+│   │   │   │   ├── depend.make
+│   │   │   │   ├── flags.make
+│   │   │   │   ├── link.txt
+│   │   │   │   ├── progress.make
+│   │   │   │   └── rosidl_generator_py
+│   │   │   │       └── lio_sam
+│   │   │   │           ├── _lio_sam_s.ep.rosidl_typesupport_c.c.o
+│   │   │   │           └── _lio_sam_s.ep.rosidl_typesupport_c.c.o.d
+│   │   │   ├── lio_sam__rosidl_typesupport_cpp.dir
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   ├── build.make
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── compiler_depend.make
+│   │   │   │   ├── compiler_depend.ts
+│   │   │   │   ├── depend.make
+│   │   │   │   ├── flags.make
+│   │   │   │   ├── link.txt
+│   │   │   │   ├── progress.make
+│   │   │   │   └── rosidl_typesupport_cpp
+│   │   │   │       └── lio_sam
+│   │   │   │           ├── msg
+│   │   │   │           │   ├── cloud_info__type_support.cpp.o
+│   │   │   │           │   └── cloud_info__type_support.cpp.o.d
+│   │   │   │           └── srv
+│   │   │   │               ├── save_map__type_support.cpp.o
+│   │   │   │               └── save_map__type_support.cpp.o.d
+│   │   │   ├── lio_sam__rosidl_typesupport_fastrtps_c.dir
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   ├── build.make
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── compiler_depend.make
+│   │   │   │   ├── compiler_depend.ts
+│   │   │   │   ├── depend.make
+│   │   │   │   ├── flags.make
+│   │   │   │   ├── link.txt
+│   │   │   │   ├── progress.make
+│   │   │   │   └── rosidl_typesupport_fastrtps_c
+│   │   │   │       └── lio_sam
+│   │   │   │           ├── msg
+│   │   │   │           │   └── detail
+│   │   │   │           │       ├── cloud_info__type_support_c.cpp.o
+│   │   │   │           │       └── cloud_info__type_support_c.cpp.o.d
+│   │   │   │           └── srv
+│   │   │   │               └── detail
+│   │   │   │                   ├── save_map__type_support_c.cpp.o
+│   │   │   │                   └── save_map__type_support_c.cpp.o.d
+│   │   │   ├── lio_sam__rosidl_typesupport_fastrtps_c__pyext.dir
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   ├── build.make
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── compiler_depend.make
+│   │   │   │   ├── compiler_depend.ts
+│   │   │   │   ├── depend.make
+│   │   │   │   ├── flags.make
+│   │   │   │   ├── link.txt
+│   │   │   │   ├── progress.make
+│   │   │   │   └── rosidl_generator_py
+│   │   │   │       └── lio_sam
+│   │   │   │           ├── _lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c.o
+│   │   │   │           └── _lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c.o.d
+│   │   │   ├── lio_sam__rosidl_typesupport_fastrtps_cpp.dir
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   ├── build.make
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── compiler_depend.make
+│   │   │   │   ├── compiler_depend.ts
+│   │   │   │   ├── depend.make
+│   │   │   │   ├── flags.make
+│   │   │   │   ├── link.txt
+│   │   │   │   ├── progress.make
+│   │   │   │   └── rosidl_typesupport_fastrtps_cpp
+│   │   │   │       └── lio_sam
+│   │   │   │           ├── msg
+│   │   │   │           │   └── detail
+│   │   │   │           │       └── dds_fastrtps
+│   │   │   │           │           ├── cloud_info__type_support.cpp.o
+│   │   │   │           │           └── cloud_info__type_support.cpp.o.d
+│   │   │   │           └── srv
+│   │   │   │               └── detail
+│   │   │   │                   └── dds_fastrtps
+│   │   │   │                       ├── save_map__type_support.cpp.o
+│   │   │   │                       └── save_map__type_support.cpp.o.d
+│   │   │   ├── lio_sam__rosidl_typesupport_introspection_c.dir
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   ├── build.make
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── compiler_depend.make
+│   │   │   │   ├── compiler_depend.ts
+│   │   │   │   ├── depend.make
+│   │   │   │   ├── flags.make
+│   │   │   │   ├── link.txt
+│   │   │   │   ├── progress.make
+│   │   │   │   └── rosidl_typesupport_introspection_c
+│   │   │   │       └── lio_sam
+│   │   │   │           ├── msg
+│   │   │   │           │   └── detail
+│   │   │   │           │       ├── cloud_info__type_support.c.o
+│   │   │   │           │       └── cloud_info__type_support.c.o.d
+│   │   │   │           └── srv
+│   │   │   │               └── detail
+│   │   │   │                   ├── save_map__type_support.c.o
+│   │   │   │                   └── save_map__type_support.c.o.d
+│   │   │   ├── lio_sam__rosidl_typesupport_introspection_c__pyext.dir
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   ├── build.make
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── compiler_depend.make
+│   │   │   │   ├── compiler_depend.ts
+│   │   │   │   ├── depend.make
+│   │   │   │   ├── flags.make
+│   │   │   │   ├── link.txt
+│   │   │   │   ├── progress.make
+│   │   │   │   └── rosidl_generator_py
+│   │   │   │       └── lio_sam
+│   │   │   │           ├── _lio_sam_s.ep.rosidl_typesupport_introspection_c.c.o
+│   │   │   │           └── _lio_sam_s.ep.rosidl_typesupport_introspection_c.c.o.d
+│   │   │   ├── lio_sam__rosidl_typesupport_introspection_cpp.dir
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   ├── build.make
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── compiler_depend.make
+│   │   │   │   ├── compiler_depend.ts
+│   │   │   │   ├── depend.make
+│   │   │   │   ├── flags.make
+│   │   │   │   ├── link.txt
+│   │   │   │   ├── progress.make
+│   │   │   │   └── rosidl_typesupport_introspection_cpp
+│   │   │   │       └── lio_sam
+│   │   │   │           ├── msg
+│   │   │   │           │   └── detail
+│   │   │   │           │       ├── cloud_info__type_support.cpp.o
+│   │   │   │           │       └── cloud_info__type_support.cpp.o.d
+│   │   │   │           └── srv
+│   │   │   │               └── detail
+│   │   │   │                   ├── save_map__type_support.cpp.o
+│   │   │   │                   └── save_map__type_support.cpp.o.d
+│   │   │   ├── lio_sam_featureExtraction.dir
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   ├── build.make
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── compiler_depend.make
+│   │   │   │   ├── compiler_depend.ts
+│   │   │   │   ├── depend.make
+│   │   │   │   ├── flags.make
+│   │   │   │   ├── link.txt
+│   │   │   │   ├── progress.make
+│   │   │   │   └── src
+│   │   │   │       ├── featureExtraction.cpp.o
+│   │   │   │       └── featureExtraction.cpp.o.d
+│   │   │   ├── lio_sam_imageProjection.dir
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   ├── build.make
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── compiler_depend.make
+│   │   │   │   ├── compiler_depend.ts
+│   │   │   │   ├── depend.make
+│   │   │   │   ├── flags.make
+│   │   │   │   ├── link.txt
+│   │   │   │   ├── progress.make
+│   │   │   │   └── src
+│   │   │   │       ├── imageProjection.cpp.o
+│   │   │   │       └── imageProjection.cpp.o.d
+│   │   │   ├── lio_sam_imuPreintegration.dir
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   ├── build.make
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── compiler_depend.make
+│   │   │   │   ├── compiler_depend.ts
+│   │   │   │   ├── depend.make
+│   │   │   │   ├── flags.make
+│   │   │   │   ├── link.txt
+│   │   │   │   ├── progress.make
+│   │   │   │   └── src
+│   │   │   │       ├── imuPreintegration.cpp.o
+│   │   │   │       └── imuPreintegration.cpp.o.d
+│   │   │   ├── lio_sam_mapOptimization.dir
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   ├── build.make
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── compiler_depend.make
+│   │   │   │   ├── compiler_depend.ts
+│   │   │   │   ├── depend.make
+│   │   │   │   ├── flags.make
+│   │   │   │   ├── link.txt
+│   │   │   │   ├── progress.make
+│   │   │   │   └── src
+│   │   │   │       ├── mapOptmization.cpp.o
+│   │   │   │       └── mapOptmization.cpp.o.d
+│   │   │   ├── lio_sam_uninstall.dir
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   ├── build.make
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── compiler_depend.make
+│   │   │   │   ├── compiler_depend.ts
+│   │   │   │   └── progress.make
+│   │   │   ├── progress.marks
+│   │   │   └── uninstall.dir
+│   │   │       ├── DependInfo.cmake
+│   │   │       ├── build.make
+│   │   │       ├── cmake_clean.cmake
+│   │   │       ├── compiler_depend.make
+│   │   │       ├── compiler_depend.ts
+│   │   │       └── progress.make
+│   │   ├── CTestConfiguration.ini
+│   │   ├── CTestCustom.cmake
+│   │   ├── CTestTestfile.cmake
+│   │   ├── Makefile
+│   │   ├── ament_cmake_core
+│   │   │   ├── lio_samConfig-version.cmake
+│   │   │   ├── lio_samConfig.cmake
+│   │   │   ├── package.cmake
+│   │   │   └── stamps
+│   │   │       ├── CloudInfo.msg.stamp
+│   │   │       ├── SaveMap.srv.stamp
+│   │   │       ├── ament_cmake_export_dependencies-extras.cmake.stamp
+│   │   │       ├── ament_cmake_export_include_directories-extras.cmake.stamp
+│   │   │       ├── ament_cmake_export_libraries-extras.cmake.stamp
+│   │   │       ├── ament_cmake_export_targets-extras.cmake.stamp
+│   │   │       ├── ament_prefix_path.sh.stamp
+│   │   │       ├── library_path.sh.stamp
+│   │   │       ├── nameConfig-version.cmake.in.stamp
+│   │   │       ├── nameConfig.cmake.in.stamp
+│   │   │       ├── package.xml.stamp
+│   │   │       ├── package_xml_2_cmake.py.stamp
+│   │   │       ├── path.sh.stamp
+│   │   │       ├── pythonpath.sh.in.stamp
+│   │   │       ├── rosidl_cmake-extras.cmake.stamp
+│   │   │       ├── rosidl_cmake_export_typesupport_libraries-extras.cmake.stamp
+│   │   │       ├── rosidl_cmake_export_typesupport_targets-extras.cmake.stamp
+│   │   │       └── templates_2_cmake.py.stamp
+│   │   ├── ament_cmake_environment_hooks
+│   │   │   ├── ament_prefix_path.dsv
+│   │   │   ├── library_path.dsv
+│   │   │   ├── local_setup.bash
+│   │   │   ├── local_setup.dsv
+│   │   │   ├── local_setup.sh
+│   │   │   ├── local_setup.zsh
+│   │   │   ├── package.dsv
+│   │   │   ├── path.dsv
+│   │   │   ├── pythonpath.dsv
+│   │   │   └── pythonpath.sh
+│   │   ├── ament_cmake_export_dependencies
+│   │   │   └── ament_cmake_export_dependencies-extras.cmake
+│   │   ├── ament_cmake_export_include_directories
+│   │   │   └── ament_cmake_export_include_directories-extras.cmake
+│   │   ├── ament_cmake_export_libraries
+│   │   │   └── ament_cmake_export_libraries-extras.cmake
+│   │   ├── ament_cmake_export_targets
+│   │   │   └── ament_cmake_export_targets-extras.cmake
+│   │   ├── ament_cmake_index
+│   │   │   └── share
+│   │   │       └── ament_index
+│   │   │           └── resource_index
+│   │   │               ├── package_run_dependencies
+│   │   │               │   └── lio_sam
+│   │   │               ├── packages
+│   │   │               │   └── lio_sam
+│   │   │               ├── parent_prefix_path
+│   │   │               │   └── lio_sam
+│   │   │               └── rosidl_interfaces
+│   │   │                   └── lio_sam
+│   │   ├── ament_cmake_package_templates
+│   │   │   └── templates.cmake
+│   │   ├── ament_cmake_python
+│   │   │   └── lio_sam
+│   │   │       ├── lio_sam -> /workspaces/quardruped/build/lio_sam/rosidl_generator_py/lio_sam
+│   │   │       ├── lio_sam.egg-info
+│   │   │       │   ├── PKG-INFO
+│   │   │       │   ├── SOURCES.txt
+│   │   │       │   ├── dependency_links.txt
+│   │   │       │   └── top_level.txt
+│   │   │       └── setup.py
+│   │   ├── ament_cmake_symlink_install
+│   │   │   ├── ament_cmake_symlink_install.cmake
+│   │   │   └── ament_cmake_symlink_install_uninstall_script.cmake
+│   │   ├── ament_cmake_symlink_install_targets_0_Release.cmake
+│   │   ├── ament_cmake_symlink_install_targets_1_Release.cmake
+│   │   ├── ament_cmake_symlink_install_targets_2_Release.cmake
+│   │   ├── ament_cmake_symlink_install_targets_3_Release.cmake
+│   │   ├── ament_cmake_uninstall_target
+│   │   │   └── ament_cmake_uninstall_target.cmake
+│   │   ├── ament_copyright
+│   │   ├── ament_cppcheck
+│   │   ├── ament_cpplint
+│   │   ├── ament_flake8
+│   │   ├── ament_lint_cmake
+│   │   ├── ament_pep257
+│   │   ├── ament_uncrustify
+│   │   ├── ament_xmllint
+│   │   ├── cmake_args.last
+│   │   ├── cmake_install.cmake
+│   │   ├── colcon_build.rc
+│   │   ├── colcon_command_prefix_build.sh
+│   │   ├── colcon_command_prefix_build.sh.env
+│   │   ├── install_manifest.txt
+│   │   ├── liblio_sam__rosidl_generator_c.so
+│   │   ├── liblio_sam__rosidl_typesupport_c.so
+│   │   ├── liblio_sam__rosidl_typesupport_cpp.so
+│   │   ├── liblio_sam__rosidl_typesupport_fastrtps_c.so
+│   │   ├── liblio_sam__rosidl_typesupport_fastrtps_cpp.so
+│   │   ├── liblio_sam__rosidl_typesupport_introspection_c.so
+│   │   ├── liblio_sam__rosidl_typesupport_introspection_cpp.so
+│   │   ├── lio_sam__py
+│   │   │   ├── CMakeFiles
+│   │   │   │   ├── CMakeDirectoryInformation.cmake
+│   │   │   │   ├── lio_sam__py.dir
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   └── progress.make
+│   │   │   │   └── progress.marks
+│   │   │   ├── CMakeLists.txt
+│   │   │   ├── CTestTestfile.cmake
+│   │   │   ├── Makefile
+│   │   │   └── cmake_install.cmake
+│   │   ├── lio_sam_featureExtraction
+│   │   ├── lio_sam_imageProjection
+│   │   ├── lio_sam_imuPreintegration
+│   │   ├── lio_sam_mapOptimization
+│   │   ├── rosidl_adapter
+│   │   │   ├── lio_sam
+│   │   │   │   ├── msg
+│   │   │   │   │   └── CloudInfo.idl
+│   │   │   │   └── srv
+│   │   │   │       └── SaveMap.idl
+│   │   │   └── lio_sam.idls
+│   │   ├── rosidl_adapter__arguments__lio_sam.json
+│   │   ├── rosidl_cmake
+│   │   │   ├── rosidl_cmake-extras.cmake
+│   │   │   ├── rosidl_cmake_export_typesupport_libraries-extras.cmake
+│   │   │   ├── rosidl_cmake_export_typesupport_targets-extras.cmake
+│   │   │   └── srv
+│   │   │       ├── SaveMap_Request.msg
+│   │   │       └── SaveMap_Response.msg
+│   │   ├── rosidl_generator_c
+│   │   │   └── lio_sam
+│   │   │       ├── msg
+│   │   │       │   ├── cloud_info.h
+│   │   │       │   ├── detail
+│   │   │       │   │   ├── cloud_info__functions.c
+│   │   │       │   │   ├── cloud_info__functions.h
+│   │   │       │   │   ├── cloud_info__struct.h
+│   │   │       │   │   └── cloud_info__type_support.h
+│   │   │       │   └── rosidl_generator_c__visibility_control.h
+│   │   │       └── srv
+│   │   │           ├── detail
+│   │   │           │   ├── save_map__functions.c
+│   │   │           │   ├── save_map__functions.h
+│   │   │           │   ├── save_map__struct.h
+│   │   │           │   └── save_map__type_support.h
+│   │   │           └── save_map.h
+│   │   ├── rosidl_generator_c__arguments.json
+│   │   ├── rosidl_generator_cpp
+│   │   │   └── lio_sam
+│   │   │       ├── msg
+│   │   │       │   ├── cloud_info.hpp
+│   │   │       │   ├── detail
+│   │   │       │   │   ├── cloud_info__builder.hpp
+│   │   │       │   │   ├── cloud_info__struct.hpp
+│   │   │       │   │   ├── cloud_info__traits.hpp
+│   │   │       │   │   └── cloud_info__type_support.hpp
+│   │   │       │   └── rosidl_generator_cpp__visibility_control.hpp
+│   │   │       └── srv
+│   │   │           ├── detail
+│   │   │           │   ├── save_map__builder.hpp
+│   │   │           │   ├── save_map__struct.hpp
+│   │   │           │   ├── save_map__traits.hpp
+│   │   │           │   └── save_map__type_support.hpp
+│   │   │           └── save_map.hpp
+│   │   ├── rosidl_generator_cpp__arguments.json
+│   │   ├── rosidl_generator_py
+│   │   │   └── lio_sam
+│   │   │       ├── __init__.py
+│   │   │       ├── _lio_sam_s.ep.rosidl_typesupport_c.c
+│   │   │       ├── _lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c
+│   │   │       ├── _lio_sam_s.ep.rosidl_typesupport_introspection_c.c
+│   │   │       ├── liblio_sam__rosidl_generator_py.so
+│   │   │       ├── lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+│   │   │       ├── lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+│   │   │       ├── lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+│   │   │       ├── msg
+│   │   │       │   ├── __init__.py
+│   │   │       │   ├── _cloud_info.py
+│   │   │       │   └── _cloud_info_s.c
+│   │   │       └── srv
+│   │   │           ├── __init__.py
+│   │   │           ├── _save_map.py
+│   │   │           └── _save_map_s.c
+│   │   ├── rosidl_generator_py__arguments.json
+│   │   ├── rosidl_typesupport_c
+│   │   │   └── lio_sam
+│   │   │       ├── msg
+│   │   │       │   └── cloud_info__type_support.cpp
+│   │   │       └── srv
+│   │   │           └── save_map__type_support.cpp
+│   │   ├── rosidl_typesupport_c__arguments.json
+│   │   ├── rosidl_typesupport_cpp
+│   │   │   └── lio_sam
+│   │   │       ├── msg
+│   │   │       │   └── cloud_info__type_support.cpp
+│   │   │       └── srv
+│   │   │           └── save_map__type_support.cpp
+│   │   ├── rosidl_typesupport_cpp__arguments.json
+│   │   ├── rosidl_typesupport_fastrtps_c
+│   │   │   └── lio_sam
+│   │   │       ├── msg
+│   │   │       │   ├── detail
+│   │   │       │   │   ├── cloud_info__rosidl_typesupport_fastrtps_c.h
+│   │   │       │   │   └── cloud_info__type_support_c.cpp
+│   │   │       │   └── rosidl_typesupport_fastrtps_c__visibility_control.h
+│   │   │       └── srv
+│   │   │           └── detail
+│   │   │               ├── save_map__rosidl_typesupport_fastrtps_c.h
+│   │   │               └── save_map__type_support_c.cpp
+│   │   ├── rosidl_typesupport_fastrtps_c__arguments.json
+│   │   ├── rosidl_typesupport_fastrtps_cpp
+│   │   │   └── lio_sam
+│   │   │       ├── msg
+│   │   │       │   ├── detail
+│   │   │       │   │   ├── cloud_info__rosidl_typesupport_fastrtps_cpp.hpp
+│   │   │       │   │   └── dds_fastrtps
+│   │   │       │   │       └── cloud_info__type_support.cpp
+│   │   │       │   └── rosidl_typesupport_fastrtps_cpp__visibility_control.h
+│   │   │       └── srv
+│   │   │           └── detail
+│   │   │               ├── dds_fastrtps
+│   │   │               │   └── save_map__type_support.cpp
+│   │   │               └── save_map__rosidl_typesupport_fastrtps_cpp.hpp
+│   │   ├── rosidl_typesupport_fastrtps_cpp__arguments.json
+│   │   ├── rosidl_typesupport_introspection_c
+│   │   │   └── lio_sam
+│   │   │       ├── msg
+│   │   │       │   ├── detail
+│   │   │       │   │   ├── cloud_info__rosidl_typesupport_introspection_c.h
+│   │   │       │   │   └── cloud_info__type_support.c
+│   │   │       │   └── rosidl_typesupport_introspection_c__visibility_control.h
+│   │   │       └── srv
+│   │   │           └── detail
+│   │   │               ├── save_map__rosidl_typesupport_introspection_c.h
+│   │   │               └── save_map__type_support.c
+│   │   ├── rosidl_typesupport_introspection_c__arguments.json
+│   │   ├── rosidl_typesupport_introspection_cpp
+│   │   │   └── lio_sam
+│   │   │       ├── msg
+│   │   │       │   └── detail
+│   │   │       │       ├── cloud_info__rosidl_typesupport_introspection_cpp.hpp
+│   │   │       │       └── cloud_info__type_support.cpp
+│   │   │       └── srv
+│   │   │           └── detail
+│   │   │               ├── save_map__rosidl_typesupport_introspection_cpp.hpp
+│   │   │               └── save_map__type_support.cpp
+│   │   ├── rosidl_typesupport_introspection_cpp__arguments.json
+│   │   └── symlink_install_manifest.txt
+│   ├── robot_control
+│   │   ├── CMakeCache.txt
+│   │   ├── CMakeFiles
+│   │   │   ├── 3.22.1
+│   │   │   │   ├── CMakeCCompiler.cmake
+│   │   │   │   ├── CMakeCXXCompiler.cmake
+│   │   │   │   ├── CMakeDetermineCompilerABI_C.bin
+│   │   │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│   │   │   │   ├── CMakeSystem.cmake
+│   │   │   │   ├── CompilerIdC
+│   │   │   │   │   ├── CMakeCCompilerId.c
+│   │   │   │   │   ├── a.out
+│   │   │   │   │   └── tmp
+│   │   │   │   └── CompilerIdCXX
+│   │   │   │       ├── CMakeCXXCompilerId.cpp
+│   │   │   │       ├── a.out
+│   │   │   │       └── tmp
+│   │   │   ├── CMakeDirectoryInformation.cmake
+│   │   │   ├── CMakeOutput.log
+│   │   │   ├── CMakeRuleHashes.txt
+│   │   │   ├── CMakeTmp
+│   │   │   ├── Makefile.cmake
+│   │   │   ├── Makefile2
+│   │   │   ├── TargetDirectories.txt
+│   │   │   ├── cmake.check_cache
+│   │   │   ├── progress.marks
+│   │   │   ├── robot_control_uninstall.dir
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   ├── build.make
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── compiler_depend.make
+│   │   │   │   ├── compiler_depend.ts
+│   │   │   │   └── progress.make
+│   │   │   └── uninstall.dir
+│   │   │       ├── DependInfo.cmake
+│   │   │       ├── build.make
+│   │   │       ├── cmake_clean.cmake
+│   │   │       ├── compiler_depend.make
+│   │   │       ├── compiler_depend.ts
+│   │   │       └── progress.make
+│   │   ├── CTestConfiguration.ini
+│   │   ├── CTestCustom.cmake
+│   │   ├── CTestTestfile.cmake
+│   │   ├── Makefile
+│   │   ├── ament_cmake_core
+│   │   │   ├── package.cmake
+│   │   │   ├── robot_controlConfig-version.cmake
+│   │   │   ├── robot_controlConfig.cmake
+│   │   │   └── stamps
+│   │   │       ├── ament_prefix_path.sh.stamp
+│   │   │       ├── nameConfig-version.cmake.in.stamp
+│   │   │       ├── nameConfig.cmake.in.stamp
+│   │   │       ├── package.xml.stamp
+│   │   │       ├── package_xml_2_cmake.py.stamp
+│   │   │       ├── path.sh.stamp
+│   │   │       └── templates_2_cmake.py.stamp
+│   │   ├── ament_cmake_environment_hooks
+│   │   │   ├── ament_prefix_path.dsv
+│   │   │   ├── local_setup.bash
+│   │   │   ├── local_setup.dsv
+│   │   │   ├── local_setup.sh
+│   │   │   ├── local_setup.zsh
+│   │   │   ├── package.dsv
+│   │   │   └── path.dsv
+│   │   ├── ament_cmake_index
+│   │   │   └── share
+│   │   │       └── ament_index
+│   │   │           └── resource_index
+│   │   │               ├── package_run_dependencies
+│   │   │               │   └── robot_control
+│   │   │               ├── packages
+│   │   │               │   └── robot_control
+│   │   │               └── parent_prefix_path
+│   │   │                   └── robot_control
+│   │   ├── ament_cmake_package_templates
+│   │   │   └── templates.cmake
+│   │   ├── ament_cmake_symlink_install
+│   │   │   ├── ament_cmake_symlink_install.cmake
+│   │   │   └── ament_cmake_symlink_install_uninstall_script.cmake
+│   │   ├── ament_cmake_uninstall_target
+│   │   │   └── ament_cmake_uninstall_target.cmake
+│   │   ├── ament_copyright
+│   │   ├── ament_flake8
+│   │   ├── ament_lint_cmake
+│   │   ├── ament_pep257
+│   │   ├── ament_xmllint
+│   │   ├── cmake_args.last
+│   │   ├── cmake_install.cmake
+│   │   ├── colcon_build.rc
+│   │   ├── colcon_command_prefix_build.sh
+│   │   ├── colcon_command_prefix_build.sh.env
+│   │   ├── install_manifest.txt
+│   │   └── symlink_install_manifest.txt
+│   ├── robot_description
+│   │   ├── CMakeCache.txt
+│   │   ├── CMakeFiles
+│   │   │   ├── 3.22.1
+│   │   │   │   ├── CMakeCCompiler.cmake
+│   │   │   │   ├── CMakeCXXCompiler.cmake
+│   │   │   │   ├── CMakeDetermineCompilerABI_C.bin
+│   │   │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│   │   │   │   ├── CMakeSystem.cmake
+│   │   │   │   ├── CompilerIdC
+│   │   │   │   │   ├── CMakeCCompilerId.c
+│   │   │   │   │   ├── a.out
+│   │   │   │   │   └── tmp
+│   │   │   │   └── CompilerIdCXX
+│   │   │   │       ├── CMakeCXXCompilerId.cpp
+│   │   │   │       ├── a.out
+│   │   │   │       └── tmp
+│   │   │   ├── CMakeDirectoryInformation.cmake
+│   │   │   ├── CMakeOutput.log
+│   │   │   ├── CMakeRuleHashes.txt
+│   │   │   ├── CMakeTmp
+│   │   │   ├── Makefile.cmake
+│   │   │   ├── Makefile2
+│   │   │   ├── TargetDirectories.txt
+│   │   │   ├── cmake.check_cache
+│   │   │   ├── progress.marks
+│   │   │   ├── robot_description_uninstall.dir
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   ├── build.make
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── compiler_depend.make
+│   │   │   │   ├── compiler_depend.ts
+│   │   │   │   └── progress.make
+│   │   │   └── uninstall.dir
+│   │   │       ├── DependInfo.cmake
+│   │   │       ├── build.make
+│   │   │       ├── cmake_clean.cmake
+│   │   │       ├── compiler_depend.make
+│   │   │       ├── compiler_depend.ts
+│   │   │       └── progress.make
+│   │   ├── CTestConfiguration.ini
+│   │   ├── CTestCustom.cmake
+│   │   ├── CTestTestfile.cmake
+│   │   ├── Makefile
+│   │   ├── ament_cmake_core
+│   │   │   ├── package.cmake
+│   │   │   ├── robot_descriptionConfig-version.cmake
+│   │   │   ├── robot_descriptionConfig.cmake
+│   │   │   └── stamps
+│   │   │       ├── ament_prefix_path.sh.stamp
+│   │   │       ├── nameConfig-version.cmake.in.stamp
+│   │   │       ├── nameConfig.cmake.in.stamp
+│   │   │       ├── package.xml.stamp
+│   │   │       ├── package_xml_2_cmake.py.stamp
+│   │   │       ├── path.sh.stamp
+│   │   │       └── templates_2_cmake.py.stamp
+│   │   ├── ament_cmake_environment_hooks
+│   │   │   ├── ament_prefix_path.dsv
+│   │   │   ├── local_setup.bash
+│   │   │   ├── local_setup.dsv
+│   │   │   ├── local_setup.sh
+│   │   │   ├── local_setup.zsh
+│   │   │   ├── package.dsv
+│   │   │   └── path.dsv
+│   │   ├── ament_cmake_index
+│   │   │   └── share
+│   │   │       └── ament_index
+│   │   │           └── resource_index
+│   │   │               ├── package_run_dependencies
+│   │   │               │   └── robot_description
+│   │   │               ├── packages
+│   │   │               │   └── robot_description
+│   │   │               └── parent_prefix_path
+│   │   │                   └── robot_description
+│   │   ├── ament_cmake_package_templates
+│   │   │   └── templates.cmake
+│   │   ├── ament_cmake_symlink_install
+│   │   │   ├── ament_cmake_symlink_install.cmake
+│   │   │   └── ament_cmake_symlink_install_uninstall_script.cmake
+│   │   ├── ament_cmake_uninstall_target
+│   │   │   └── ament_cmake_uninstall_target.cmake
+│   │   ├── ament_copyright
+│   │   ├── ament_flake8
+│   │   ├── ament_lint_cmake
+│   │   ├── ament_pep257
+│   │   ├── ament_xmllint
+│   │   ├── cmake_args.last
+│   │   ├── cmake_install.cmake
+│   │   ├── colcon_build.rc
+│   │   ├── colcon_command_prefix_build.sh
+│   │   ├── colcon_command_prefix_build.sh.env
+│   │   ├── install_manifest.txt
+│   │   └── symlink_install_manifest.txt
+│   ├── robot_gazebo
+│   │   ├── CMakeCache.txt
+│   │   ├── CMakeFiles
+│   │   │   ├── 3.22.1
+│   │   │   │   ├── CMakeCCompiler.cmake
+│   │   │   │   ├── CMakeCXXCompiler.cmake
+│   │   │   │   ├── CMakeDetermineCompilerABI_C.bin
+│   │   │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│   │   │   │   ├── CMakeSystem.cmake
+│   │   │   │   ├── CompilerIdC
+│   │   │   │   │   ├── CMakeCCompilerId.c
+│   │   │   │   │   ├── a.out
+│   │   │   │   │   └── tmp
+│   │   │   │   └── CompilerIdCXX
+│   │   │   │       ├── CMakeCXXCompilerId.cpp
+│   │   │   │       ├── a.out
+│   │   │   │       └── tmp
+│   │   │   ├── CMakeDirectoryInformation.cmake
+│   │   │   ├── CMakeOutput.log
+│   │   │   ├── CMakeRuleHashes.txt
+│   │   │   ├── CMakeTmp
+│   │   │   ├── Makefile.cmake
+│   │   │   ├── Makefile2
+│   │   │   ├── TargetDirectories.txt
+│   │   │   ├── cmake.check_cache
+│   │   │   ├── progress.marks
+│   │   │   ├── robot_gazebo_uninstall.dir
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   ├── build.make
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── compiler_depend.make
+│   │   │   │   ├── compiler_depend.ts
+│   │   │   │   └── progress.make
+│   │   │   └── uninstall.dir
+│   │   │       ├── DependInfo.cmake
+│   │   │       ├── build.make
+│   │   │       ├── cmake_clean.cmake
+│   │   │       ├── compiler_depend.make
+│   │   │       ├── compiler_depend.ts
+│   │   │       └── progress.make
+│   │   ├── CTestConfiguration.ini
+│   │   ├── CTestCustom.cmake
+│   │   ├── CTestTestfile.cmake
+│   │   ├── Makefile
+│   │   ├── ament_cmake_core
+│   │   │   ├── package.cmake
+│   │   │   ├── robot_gazeboConfig-version.cmake
+│   │   │   ├── robot_gazeboConfig.cmake
+│   │   │   └── stamps
+│   │   │       ├── ament_prefix_path.sh.stamp
+│   │   │       ├── nameConfig-version.cmake.in.stamp
+│   │   │       ├── nameConfig.cmake.in.stamp
+│   │   │       ├── package.xml.stamp
+│   │   │       ├── package_xml_2_cmake.py.stamp
+│   │   │       ├── path.sh.stamp
+│   │   │       └── templates_2_cmake.py.stamp
+│   │   ├── ament_cmake_environment_hooks
+│   │   │   ├── ament_prefix_path.dsv
+│   │   │   ├── local_setup.bash
+│   │   │   ├── local_setup.dsv
+│   │   │   ├── local_setup.sh
+│   │   │   ├── local_setup.zsh
+│   │   │   ├── package.dsv
+│   │   │   └── path.dsv
+│   │   ├── ament_cmake_index
+│   │   │   └── share
+│   │   │       └── ament_index
+│   │   │           └── resource_index
+│   │   │               ├── package_run_dependencies
+│   │   │               │   └── robot_gazebo
+│   │   │               ├── packages
+│   │   │               │   └── robot_gazebo
+│   │   │               └── parent_prefix_path
+│   │   │                   └── robot_gazebo
+│   │   ├── ament_cmake_package_templates
+│   │   │   └── templates.cmake
+│   │   ├── ament_cmake_symlink_install
+│   │   │   ├── ament_cmake_symlink_install.cmake
+│   │   │   └── ament_cmake_symlink_install_uninstall_script.cmake
+│   │   ├── ament_cmake_uninstall_target
+│   │   │   └── ament_cmake_uninstall_target.cmake
+│   │   ├── ament_copyright
+│   │   ├── ament_flake8
+│   │   ├── ament_lint_cmake
+│   │   ├── ament_pep257
+│   │   ├── ament_xmllint
+│   │   ├── cmake_args.last
+│   │   ├── cmake_install.cmake
+│   │   ├── colcon_build.rc
+│   │   ├── colcon_command_prefix_build.sh
+│   │   ├── colcon_command_prefix_build.sh.env
+│   │   ├── install_manifest.txt
+│   │   └── symlink_install_manifest.txt
+│   ├── velodyne_description
+│   │   ├── CMakeCache.txt
+│   │   ├── CMakeFiles
+│   │   │   ├── 3.22.1
+│   │   │   │   ├── CMakeCCompiler.cmake
+│   │   │   │   ├── CMakeCXXCompiler.cmake
+│   │   │   │   ├── CMakeDetermineCompilerABI_C.bin
+│   │   │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│   │   │   │   ├── CMakeSystem.cmake
+│   │   │   │   ├── CompilerIdC
+│   │   │   │   │   ├── CMakeCCompilerId.c
+│   │   │   │   │   ├── a.out
+│   │   │   │   │   └── tmp
+│   │   │   │   └── CompilerIdCXX
+│   │   │   │       ├── CMakeCXXCompilerId.cpp
+│   │   │   │       ├── a.out
+│   │   │   │       └── tmp
+│   │   │   ├── CMakeDirectoryInformation.cmake
+│   │   │   ├── CMakeOutput.log
+│   │   │   ├── CMakeRuleHashes.txt
+│   │   │   ├── CMakeTmp
+│   │   │   ├── Makefile.cmake
+│   │   │   ├── Makefile2
+│   │   │   ├── TargetDirectories.txt
+│   │   │   ├── cmake.check_cache
+│   │   │   ├── progress.marks
+│   │   │   ├── uninstall.dir
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   ├── build.make
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── compiler_depend.make
+│   │   │   │   ├── compiler_depend.ts
+│   │   │   │   └── progress.make
+│   │   │   └── velodyne_description_uninstall.dir
+│   │   │       ├── DependInfo.cmake
+│   │   │       ├── build.make
+│   │   │       ├── cmake_clean.cmake
+│   │   │       ├── compiler_depend.make
+│   │   │       ├── compiler_depend.ts
+│   │   │       └── progress.make
+│   │   ├── CTestConfiguration.ini
+│   │   ├── CTestCustom.cmake
+│   │   ├── CTestTestfile.cmake
+│   │   ├── Makefile
+│   │   ├── ament_cmake_core
+│   │   │   ├── package.cmake
+│   │   │   ├── stamps
+│   │   │   │   ├── ament_prefix_path.sh.stamp
+│   │   │   │   ├── nameConfig-version.cmake.in.stamp
+│   │   │   │   ├── nameConfig.cmake.in.stamp
+│   │   │   │   ├── package.xml.stamp
+│   │   │   │   ├── package_xml_2_cmake.py.stamp
+│   │   │   │   ├── path.sh.stamp
+│   │   │   │   └── templates_2_cmake.py.stamp
+│   │   │   ├── velodyne_descriptionConfig-version.cmake
+│   │   │   └── velodyne_descriptionConfig.cmake
+│   │   ├── ament_cmake_environment_hooks
+│   │   │   ├── ament_prefix_path.dsv
+│   │   │   ├── local_setup.bash
+│   │   │   ├── local_setup.dsv
+│   │   │   ├── local_setup.sh
+│   │   │   ├── local_setup.zsh
+│   │   │   ├── package.dsv
+│   │   │   └── path.dsv
+│   │   ├── ament_cmake_index
+│   │   │   └── share
+│   │   │       └── ament_index
+│   │   │           └── resource_index
+│   │   │               ├── package_run_dependencies
+│   │   │               │   └── velodyne_description
+│   │   │               ├── packages
+│   │   │               │   └── velodyne_description
+│   │   │               └── parent_prefix_path
+│   │   │                   └── velodyne_description
+│   │   ├── ament_cmake_package_templates
+│   │   │   └── templates.cmake
+│   │   ├── ament_cmake_symlink_install
+│   │   │   ├── ament_cmake_symlink_install.cmake
+│   │   │   └── ament_cmake_symlink_install_uninstall_script.cmake
+│   │   ├── ament_cmake_uninstall_target
+│   │   │   └── ament_cmake_uninstall_target.cmake
+│   │   ├── cmake_args.last
+│   │   ├── cmake_install.cmake
+│   │   ├── colcon_build.rc
+│   │   ├── colcon_command_prefix_build.sh
+│   │   ├── colcon_command_prefix_build.sh.env
+│   │   ├── install_manifest.txt
+│   │   └── symlink_install_manifest.txt
+│   ├── velodyne_gazebo_plugins
+│   │   ├── CMakeCache.txt
+│   │   ├── CMakeFiles
+│   │   │   ├── 3.22.1
+│   │   │   │   ├── CMakeCCompiler.cmake
+│   │   │   │   ├── CMakeCXXCompiler.cmake
+│   │   │   │   ├── CMakeDetermineCompilerABI_C.bin
+│   │   │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│   │   │   │   ├── CMakeSystem.cmake
+│   │   │   │   ├── CompilerIdC
+│   │   │   │   │   ├── CMakeCCompilerId.c
+│   │   │   │   │   ├── a.out
+│   │   │   │   │   └── tmp
+│   │   │   │   └── CompilerIdCXX
+│   │   │   │       ├── CMakeCXXCompilerId.cpp
+│   │   │   │       ├── a.out
+│   │   │   │       └── tmp
+│   │   │   ├── CMakeDirectoryInformation.cmake
+│   │   │   ├── CMakeOutput.log
+│   │   │   ├── CMakeRuleHashes.txt
+│   │   │   ├── CMakeTmp
+│   │   │   ├── Makefile.cmake
+│   │   │   ├── Makefile2
+│   │   │   ├── TargetDirectories.txt
+│   │   │   ├── cmake.check_cache
+│   │   │   ├── gazebo_ros_velodyne_laser.dir
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   ├── build.make
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── compiler_depend.internal
+│   │   │   │   ├── compiler_depend.make
+│   │   │   │   ├── compiler_depend.ts
+│   │   │   │   ├── depend.make
+│   │   │   │   ├── flags.make
+│   │   │   │   ├── link.txt
+│   │   │   │   ├── progress.make
+│   │   │   │   └── src
+│   │   │   │       ├── GazeboRosVelodyneLaser.cpp.o
+│   │   │   │       └── GazeboRosVelodyneLaser.cpp.o.d
+│   │   │   ├── progress.marks
+│   │   │   ├── uninstall.dir
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   ├── build.make
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── compiler_depend.make
+│   │   │   │   ├── compiler_depend.ts
+│   │   │   │   └── progress.make
+│   │   │   └── velodyne_gazebo_plugins_uninstall.dir
+│   │   │       ├── DependInfo.cmake
+│   │   │       ├── build.make
+│   │   │       ├── cmake_clean.cmake
+│   │   │       ├── compiler_depend.make
+│   │   │       ├── compiler_depend.ts
+│   │   │       └── progress.make
+│   │   ├── CTestConfiguration.ini
+│   │   ├── CTestCustom.cmake
+│   │   ├── CTestTestfile.cmake
+│   │   ├── Makefile
+│   │   ├── ament_cmake_core
+│   │   │   ├── package.cmake
+│   │   │   ├── stamps
+│   │   │   │   ├── ament_cmake_export_dependencies-extras.cmake.stamp
+│   │   │   │   ├── ament_cmake_export_include_directories-extras.cmake.stamp
+│   │   │   │   ├── ament_cmake_export_libraries-extras.cmake.stamp
+│   │   │   │   ├── ament_prefix_path.sh.stamp
+│   │   │   │   ├── library_path.sh.stamp
+│   │   │   │   ├── nameConfig-version.cmake.in.stamp
+│   │   │   │   ├── nameConfig.cmake.in.stamp
+│   │   │   │   ├── package.xml.stamp
+│   │   │   │   ├── package_xml_2_cmake.py.stamp
+│   │   │   │   ├── path.sh.stamp
+│   │   │   │   └── templates_2_cmake.py.stamp
+│   │   │   ├── velodyne_gazebo_pluginsConfig-version.cmake
+│   │   │   └── velodyne_gazebo_pluginsConfig.cmake
+│   │   ├── ament_cmake_environment_hooks
+│   │   │   ├── ament_prefix_path.dsv
+│   │   │   ├── library_path.dsv
+│   │   │   ├── local_setup.bash
+│   │   │   ├── local_setup.dsv
+│   │   │   ├── local_setup.sh
+│   │   │   ├── local_setup.zsh
+│   │   │   ├── package.dsv
+│   │   │   └── path.dsv
+│   │   ├── ament_cmake_export_dependencies
+│   │   │   └── ament_cmake_export_dependencies-extras.cmake
+│   │   ├── ament_cmake_export_include_directories
+│   │   │   └── ament_cmake_export_include_directories-extras.cmake
+│   │   ├── ament_cmake_export_libraries
+│   │   │   └── ament_cmake_export_libraries-extras.cmake
+│   │   ├── ament_cmake_index
+│   │   │   └── share
+│   │   │       └── ament_index
+│   │   │           └── resource_index
+│   │   │               ├── package_run_dependencies
+│   │   │               │   └── velodyne_gazebo_plugins
+│   │   │               ├── packages
+│   │   │               │   └── velodyne_gazebo_plugins
+│   │   │               └── parent_prefix_path
+│   │   │                   └── velodyne_gazebo_plugins
+│   │   ├── ament_cmake_package_templates
+│   │   │   └── templates.cmake
+│   │   ├── ament_cmake_symlink_install
+│   │   │   ├── ament_cmake_symlink_install.cmake
+│   │   │   └── ament_cmake_symlink_install_uninstall_script.cmake
+│   │   ├── ament_cmake_symlink_install_targets_0_.cmake
+│   │   ├── ament_cmake_uninstall_target
+│   │   │   └── ament_cmake_uninstall_target.cmake
+│   │   ├── cmake_args.last
+│   │   ├── cmake_install.cmake
+│   │   ├── colcon_build.rc
+│   │   ├── colcon_command_prefix_build.sh
+│   │   ├── colcon_command_prefix_build.sh.env
+│   │   ├── install_manifest.txt
+│   │   ├── libgazebo_ros_velodyne_laser.so
+│   │   └── symlink_install_manifest.txt
+│   └── velodyne_simulator
+│       ├── CMakeCache.txt
+│       ├── CMakeFiles
+│       │   ├── 3.22.1
+│       │   │   ├── CMakeCCompiler.cmake
+│       │   │   ├── CMakeCXXCompiler.cmake
+│       │   │   ├── CMakeDetermineCompilerABI_C.bin
+│       │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│       │   │   ├── CMakeSystem.cmake
+│       │   │   ├── CompilerIdC
+│       │   │   │   ├── CMakeCCompilerId.c
+│       │   │   │   ├── a.out
+│       │   │   │   └── tmp
+│       │   │   └── CompilerIdCXX
+│       │   │       ├── CMakeCXXCompilerId.cpp
+│       │   │       ├── a.out
+│       │   │       └── tmp
+│       │   ├── CMakeDirectoryInformation.cmake
+│       │   ├── CMakeOutput.log
+│       │   ├── CMakeRuleHashes.txt
+│       │   ├── CMakeTmp
+│       │   ├── Makefile.cmake
+│       │   ├── Makefile2
+│       │   ├── TargetDirectories.txt
+│       │   ├── cmake.check_cache
+│       │   ├── progress.marks
+│       │   ├── uninstall.dir
+│       │   │   ├── DependInfo.cmake
+│       │   │   ├── build.make
+│       │   │   ├── cmake_clean.cmake
+│       │   │   ├── compiler_depend.make
+│       │   │   ├── compiler_depend.ts
+│       │   │   └── progress.make
+│       │   └── velodyne_simulator_uninstall.dir
+│       │       ├── DependInfo.cmake
+│       │       ├── build.make
+│       │       ├── cmake_clean.cmake
+│       │       ├── compiler_depend.make
+│       │       ├── compiler_depend.ts
+│       │       └── progress.make
+│       ├── CTestConfiguration.ini
+│       ├── CTestCustom.cmake
+│       ├── CTestTestfile.cmake
+│       ├── Makefile
+│       ├── ament_cmake_core
+│       │   ├── package.cmake
+│       │   ├── stamps
+│       │   │   ├── ament_prefix_path.sh.stamp
+│       │   │   ├── nameConfig-version.cmake.in.stamp
+│       │   │   ├── nameConfig.cmake.in.stamp
+│       │   │   ├── package.xml.stamp
+│       │   │   ├── package_xml_2_cmake.py.stamp
+│       │   │   ├── path.sh.stamp
+│       │   │   └── templates_2_cmake.py.stamp
+│       │   ├── velodyne_simulatorConfig-version.cmake
+│       │   └── velodyne_simulatorConfig.cmake
+│       ├── ament_cmake_environment_hooks
+│       │   ├── ament_prefix_path.dsv
+│       │   ├── local_setup.bash
+│       │   ├── local_setup.dsv
+│       │   ├── local_setup.sh
+│       │   ├── local_setup.zsh
+│       │   ├── package.dsv
+│       │   └── path.dsv
+│       ├── ament_cmake_index
+│       │   └── share
+│       │       └── ament_index
+│       │           └── resource_index
+│       │               ├── package_run_dependencies
+│       │               │   └── velodyne_simulator
+│       │               ├── packages
+│       │               │   └── velodyne_simulator
+│       │               └── parent_prefix_path
+│       │                   └── velodyne_simulator
+│       ├── ament_cmake_package_templates
+│       │   └── templates.cmake
+│       ├── ament_cmake_symlink_install
+│       │   ├── ament_cmake_symlink_install.cmake
+│       │   └── ament_cmake_symlink_install_uninstall_script.cmake
+│       ├── ament_cmake_uninstall_target
+│       │   └── ament_cmake_uninstall_target.cmake
+│       ├── cmake_args.last
+│       ├── cmake_install.cmake
+│       ├── colcon_build.rc
+│       ├── colcon_command_prefix_build.sh
+│       ├── colcon_command_prefix_build.sh.env
+│       ├── install_manifest.txt
+│       └── symlink_install_manifest.txt
+├── build_log.txt
+├── error.txt
+├── frames_2025-11-14_03.29.58.gv
+├── frames_2025-11-14_03.29.58.pdf
+├── install
+│   ├── COLCON_IGNORE
+│   ├── _local_setup_util_ps1.py
+│   ├── _local_setup_util_sh.py
+│   ├── custom_robot_description
+│   │   └── share
+│   │       ├── ament_index
+│   │       │   └── resource_index
+│   │       │       ├── package_run_dependencies
+│   │       │       │   └── custom_robot_description -> /workspaces/quardruped/build/custom_robot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/custom_robot_description
+│   │       │       ├── packages
+│   │       │       │   └── custom_robot_description -> /workspaces/quardruped/build/custom_robot_description/ament_cmake_index/share/ament_index/resource_index/packages/custom_robot_description
+│   │       │       └── parent_prefix_path
+│   │       │           └── custom_robot_description -> /workspaces/quardruped/build/custom_robot_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/custom_robot_description
+│   │       ├── colcon-core
+│   │       │   └── packages
+│   │       │       └── custom_robot_description
+│   │       └── custom_robot_description
+│   │           ├── cmake
+│   │           │   ├── custom_robot_descriptionConfig-version.cmake -> /workspaces/quardruped/build/custom_robot_description/ament_cmake_core/custom_robot_descriptionConfig-version.cmake
+│   │           │   └── custom_robot_descriptionConfig.cmake -> /workspaces/quardruped/build/custom_robot_description/ament_cmake_core/custom_robot_descriptionConfig.cmake
+│   │           ├── config
+│   │           │   └── lio_sam_params.yaml -> /workspaces/quardruped/src/custom_robot_description/config/lio_sam_params.yaml
+│   │           ├── environment
+│   │           │   ├── ament_prefix_path.dsv -> /workspaces/quardruped/build/custom_robot_description/ament_cmake_environment_hooks/ament_prefix_path.dsv
+│   │           │   ├── ament_prefix_path.sh -> /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh
+│   │           │   ├── path.dsv -> /workspaces/quardruped/build/custom_robot_description/ament_cmake_environment_hooks/path.dsv
+│   │           │   └── path.sh -> /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh
+│   │           ├── hook
+│   │           │   ├── cmake_prefix_path.dsv
+│   │           │   ├── cmake_prefix_path.ps1
+│   │           │   └── cmake_prefix_path.sh
+│   │           ├── launch
+│   │           │   ├── custom_robot_sim.launch.py -> /workspaces/quardruped/src/custom_robot_description/launch/custom_robot_sim.launch.py
+│   │           │   └── lio_sam_custom.launch.py -> /workspaces/quardruped/src/custom_robot_description/launch/lio_sam_custom.launch.py
+│   │           ├── local_setup.bash -> /workspaces/quardruped/build/custom_robot_description/ament_cmake_environment_hooks/local_setup.bash
+│   │           ├── local_setup.dsv -> /workspaces/quardruped/build/custom_robot_description/ament_cmake_environment_hooks/local_setup.dsv
+│   │           ├── local_setup.sh -> /workspaces/quardruped/build/custom_robot_description/ament_cmake_environment_hooks/local_setup.sh
+│   │           ├── local_setup.zsh -> /workspaces/quardruped/build/custom_robot_description/ament_cmake_environment_hooks/local_setup.zsh
+│   │           ├── package.bash
+│   │           ├── package.dsv
+│   │           ├── package.ps1
+│   │           ├── package.sh
+│   │           ├── package.xml -> /workspaces/quardruped/src/custom_robot_description/package.xml
+│   │           ├── package.zsh
+│   │           ├── urdf
+│   │           │   ├── custom_robot.urdf.xacro -> /workspaces/quardruped/src/custom_robot_description/urdf/custom_robot.urdf.xacro
+│   │           │   └── sensors
+│   │           │       ├── imu.urdf.xacro -> /workspaces/quardruped/src/custom_robot_description/urdf/sensors/imu.urdf.xacro
+│   │           │       └── velodyne.urdf.xacro -> /workspaces/quardruped/src/custom_robot_description/urdf/sensors/velodyne.urdf.xacro
+│   │           └── worlds
+│   │               ├── custom_warehouse.world -> /workspaces/quardruped/src/custom_robot_description/worlds/custom_warehouse.world
+│   │               └── warehouse.world -> /workspaces/quardruped/src/custom_robot_description/worlds/warehouse.world
+│   ├── husky_minimal
+│   │   └── share
+│   │       ├── ament_index
+│   │       │   └── resource_index
+│   │       │       ├── package_run_dependencies
+│   │       │       │   └── husky_minimal -> /workspaces/quardruped/build/husky_minimal/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/husky_minimal
+│   │       │       ├── packages
+│   │       │       │   └── husky_minimal -> /workspaces/quardruped/build/husky_minimal/ament_cmake_index/share/ament_index/resource_index/packages/husky_minimal
+│   │       │       └── parent_prefix_path
+│   │       │           └── husky_minimal -> /workspaces/quardruped/build/husky_minimal/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/husky_minimal
+│   │       ├── colcon-core
+│   │       │   └── packages
+│   │       │       └── husky_minimal
+│   │       └── husky_minimal
+│   │           ├── cmake
+│   │           │   ├── husky_minimalConfig-version.cmake -> /workspaces/quardruped/build/husky_minimal/ament_cmake_core/husky_minimalConfig-version.cmake
+│   │           │   └── husky_minimalConfig.cmake -> /workspaces/quardruped/build/husky_minimal/ament_cmake_core/husky_minimalConfig.cmake
+│   │           ├── config
+│   │           │   ├── husky_controllers.yaml -> /workspaces/quardruped/src/husky_minimal/config/husky_controllers.yaml
+│   │           │   └── lio_sam_params.yaml -> /workspaces/quardruped/src/husky_minimal/config/lio_sam_params.yaml
+│   │           ├── environment
+│   │           │   ├── ament_prefix_path.dsv -> /workspaces/quardruped/build/husky_minimal/ament_cmake_environment_hooks/ament_prefix_path.dsv
+│   │           │   ├── ament_prefix_path.sh -> /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh
+│   │           │   ├── path.dsv -> /workspaces/quardruped/build/husky_minimal/ament_cmake_environment_hooks/path.dsv
+│   │           │   └── path.sh -> /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh
+│   │           ├── hook
+│   │           │   ├── cmake_prefix_path.dsv
+│   │           │   ├── cmake_prefix_path.ps1
+│   │           │   └── cmake_prefix_path.sh
+│   │           ├── launch
+│   │           │   ├── __pycache__
+│   │           │   │   ├── gazebo_husky.launch.cpython-310.pyc
+│   │           │   │   ├── joystick.launch.cpython-310.pyc
+│   │           │   │   ├── lio_sam_husky.launch.cpython-310.pyc
+│   │           │   │   └── teleop.launch.cpython-310.pyc
+│   │           │   ├── gazebo_husky.launch.py -> /workspaces/quardruped/src/husky_minimal/launch/gazebo_husky.launch.py
+│   │           │   ├── husky_lio_sam_full.launch.py -> /workspaces/quardruped/src/husky_minimal/launch/husky_lio_sam_full.launch.py
+│   │           │   ├── joystick.launch.py -> /workspaces/quardruped/src/husky_minimal/launch/joystick.launch.py
+│   │           │   ├── lio_sam_husky.launch.py -> /workspaces/quardruped/src/husky_minimal/launch/lio_sam_husky.launch.py
+│   │           │   ├── rviz_husky.launch.py -> /workspaces/quardruped/src/husky_minimal/launch/rviz_husky.launch.py
+│   │           │   └── teleop.launch.py -> /workspaces/quardruped/src/husky_minimal/launch/teleop.launch.py
+│   │           ├── local_setup.bash -> /workspaces/quardruped/build/husky_minimal/ament_cmake_environment_hooks/local_setup.bash
+│   │           ├── local_setup.dsv -> /workspaces/quardruped/build/husky_minimal/ament_cmake_environment_hooks/local_setup.dsv
+│   │           ├── local_setup.sh -> /workspaces/quardruped/build/husky_minimal/ament_cmake_environment_hooks/local_setup.sh
+│   │           ├── local_setup.zsh -> /workspaces/quardruped/build/husky_minimal/ament_cmake_environment_hooks/local_setup.zsh
+│   │           ├── meshes
+│   │           │   ├── accessories
+│   │           │   │   ├── 300_mm_sensor_arch.dae -> /workspaces/quardruped/src/husky_minimal/meshes/accessories/300_mm_sensor_arch.dae
+│   │           │   │   ├── 300_mm_sensor_arch.stl -> /workspaces/quardruped/src/husky_minimal/meshes/accessories/300_mm_sensor_arch.stl
+│   │           │   │   ├── 510_mm_sensor_arch.dae -> /workspaces/quardruped/src/husky_minimal/meshes/accessories/510_mm_sensor_arch.dae
+│   │           │   │   ├── 510_mm_sensor_arch.stl -> /workspaces/quardruped/src/husky_minimal/meshes/accessories/510_mm_sensor_arch.stl
+│   │           │   │   ├── hokuyo_ust10.stl -> /workspaces/quardruped/src/husky_minimal/meshes/accessories/hokuyo_ust10.stl
+│   │           │   │   ├── lidar_mount.stl -> /workspaces/quardruped/src/husky_minimal/meshes/accessories/lidar_mount.stl
+│   │           │   │   ├── lms1xx_mount.dae -> /workspaces/quardruped/src/husky_minimal/meshes/accessories/lms1xx_mount.dae
+│   │           │   │   ├── lms1xx_mount.stl -> /workspaces/quardruped/src/husky_minimal/meshes/accessories/lms1xx_mount.stl
+│   │           │   │   └── wibotic_bumper.stl -> /workspaces/quardruped/src/husky_minimal/meshes/accessories/wibotic_bumper.stl
+│   │           │   ├── base_link.dae -> /workspaces/quardruped/src/husky_minimal/meshes/base_link.dae
+│   │           │   ├── base_link.stl -> /workspaces/quardruped/src/husky_minimal/meshes/base_link.stl
+│   │           │   ├── bracket_extension_20.stl -> /workspaces/quardruped/src/husky_minimal/meshes/bracket_extension_20.stl
+│   │           │   ├── bracket_extension_40.stl -> /workspaces/quardruped/src/husky_minimal/meshes/bracket_extension_40.stl
+│   │           │   ├── bracket_extension_60.stl -> /workspaces/quardruped/src/husky_minimal/meshes/bracket_extension_60.stl
+│   │           │   ├── bracket_extension_80.stl -> /workspaces/quardruped/src/husky_minimal/meshes/bracket_extension_80.stl
+│   │           │   ├── bracket_horizontal.stl -> /workspaces/quardruped/src/husky_minimal/meshes/bracket_horizontal.stl
+│   │           │   ├── bracket_horizontal_large.stl -> /workspaces/quardruped/src/husky_minimal/meshes/bracket_horizontal_large.stl
+│   │           │   ├── bracket_vertical.stl -> /workspaces/quardruped/src/husky_minimal/meshes/bracket_vertical.stl
+│   │           │   ├── bumper.dae -> /workspaces/quardruped/src/husky_minimal/meshes/bumper.dae
+│   │           │   ├── bumper_extension.dae -> /workspaces/quardruped/src/husky_minimal/meshes/bumper_extension.dae
+│   │           │   ├── large_top_plate.dae -> /workspaces/quardruped/src/husky_minimal/meshes/large_top_plate.dae
+│   │           │   ├── large_top_plate_collision.stl -> /workspaces/quardruped/src/husky_minimal/meshes/large_top_plate_collision.stl
+│   │           │   ├── pacs_full_riser.stl -> /workspaces/quardruped/src/husky_minimal/meshes/pacs_full_riser.stl
+│   │           │   ├── pacs_partial_riser.stl -> /workspaces/quardruped/src/husky_minimal/meshes/pacs_partial_riser.stl
+│   │           │   ├── pacs_top_plate.stl -> /workspaces/quardruped/src/husky_minimal/meshes/pacs_top_plate.stl
+│   │           │   ├── top_chassis.dae -> /workspaces/quardruped/src/husky_minimal/meshes/top_chassis.dae
+│   │           │   ├── top_chassis.stl -> /workspaces/quardruped/src/husky_minimal/meshes/top_chassis.stl
+│   │           │   ├── top_plate.dae -> /workspaces/quardruped/src/husky_minimal/meshes/top_plate.dae
+│   │           │   ├── top_plate.stl -> /workspaces/quardruped/src/husky_minimal/meshes/top_plate.stl
+│   │           │   ├── user_rail.dae -> /workspaces/quardruped/src/husky_minimal/meshes/user_rail.dae
+│   │           │   ├── user_rail.stl -> /workspaces/quardruped/src/husky_minimal/meshes/user_rail.stl
+│   │           │   ├── wheel.dae -> /workspaces/quardruped/src/husky_minimal/meshes/wheel.dae
+│   │           │   └── wheel.stl -> /workspaces/quardruped/src/husky_minimal/meshes/wheel.stl
+│   │           ├── package.bash
+│   │           ├── package.dsv
+│   │           ├── package.ps1
+│   │           ├── package.sh
+│   │           ├── package.xml -> /workspaces/quardruped/src/husky_minimal/package.xml
+│   │           ├── package.zsh
+│   │           ├── rviz
+│   │           │   └── husky.rviz -> /workspaces/quardruped/src/husky_minimal/rviz/husky.rviz
+│   │           └── urdf
+│   │               ├── empty.urdf -> /workspaces/quardruped/src/husky_minimal/urdf/empty.urdf
+│   │               ├── husky_ros2.urdf.xacro -> /workspaces/quardruped/src/husky_minimal/urdf/husky_ros2.urdf.xacro
+│   │               ├── pacs.urdf.xacro -> /workspaces/quardruped/src/husky_minimal/urdf/pacs.urdf.xacro
+│   │               ├── sensors
+│   │               │   ├── imu.urdf.xacro -> /workspaces/quardruped/src/husky_minimal/urdf/sensors/imu.urdf.xacro
+│   │               │   └── velodyne.urdf.xacro -> /workspaces/quardruped/src/husky_minimal/urdf/sensors/velodyne.urdf.xacro
+│   │               └── wheel.urdf.xacro -> /workspaces/quardruped/src/husky_minimal/urdf/wheel.urdf.xacro
+│   ├── lio_sam
+│   │   ├── include
+│   │   │   ├── lio_sam
+│   │   │   │   └── lio_sam
+│   │   │   │       ├── msg
+│   │   │   │       │   ├── cloud_info.h -> /workspaces/quardruped/build/lio_sam/rosidl_generator_c/lio_sam/msg/cloud_info.h
+│   │   │   │       │   ├── cloud_info.hpp -> /workspaces/quardruped/build/lio_sam/rosidl_generator_cpp/lio_sam/msg/cloud_info.hpp
+│   │   │   │       │   ├── detail
+│   │   │   │       │   │   ├── cloud_info__builder.hpp -> /workspaces/quardruped/build/lio_sam/rosidl_generator_cpp/lio_sam/msg/detail/cloud_info__builder.hpp
+│   │   │   │       │   │   ├── cloud_info__functions.h -> /workspaces/quardruped/build/lio_sam/rosidl_generator_c/lio_sam/msg/detail/cloud_info__functions.h
+│   │   │   │       │   │   ├── cloud_info__rosidl_typesupport_fastrtps_c.h -> /workspaces/quardruped/build/lio_sam/rosidl_typesupport_fastrtps_c/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h
+│   │   │   │       │   │   ├── cloud_info__rosidl_typesupport_fastrtps_cpp.hpp -> /workspaces/quardruped/build/lio_sam/rosidl_typesupport_fastrtps_cpp/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp
+│   │   │   │       │   │   ├── cloud_info__rosidl_typesupport_introspection_c.h -> /workspaces/quardruped/build/lio_sam/rosidl_typesupport_introspection_c/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h
+│   │   │   │       │   │   ├── cloud_info__rosidl_typesupport_introspection_cpp.hpp -> /workspaces/quardruped/build/lio_sam/rosidl_typesupport_introspection_cpp/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp
+│   │   │   │       │   │   ├── cloud_info__struct.h -> /workspaces/quardruped/build/lio_sam/rosidl_generator_c/lio_sam/msg/detail/cloud_info__struct.h
+│   │   │   │       │   │   ├── cloud_info__struct.hpp -> /workspaces/quardruped/build/lio_sam/rosidl_generator_cpp/lio_sam/msg/detail/cloud_info__struct.hpp
+│   │   │   │       │   │   ├── cloud_info__traits.hpp -> /workspaces/quardruped/build/lio_sam/rosidl_generator_cpp/lio_sam/msg/detail/cloud_info__traits.hpp
+│   │   │   │       │   │   ├── cloud_info__type_support.h -> /workspaces/quardruped/build/lio_sam/rosidl_generator_c/lio_sam/msg/detail/cloud_info__type_support.h
+│   │   │   │       │   │   └── cloud_info__type_support.hpp -> /workspaces/quardruped/build/lio_sam/rosidl_generator_cpp/lio_sam/msg/detail/cloud_info__type_support.hpp
+│   │   │   │       │   ├── rosidl_generator_c__visibility_control.h -> /workspaces/quardruped/build/lio_sam/rosidl_generator_c/lio_sam/msg/rosidl_generator_c__visibility_control.h
+│   │   │   │       │   ├── rosidl_generator_cpp__visibility_control.hpp -> /workspaces/quardruped/build/lio_sam/rosidl_generator_cpp/lio_sam/msg/rosidl_generator_cpp__visibility_control.hpp
+│   │   │   │       │   ├── rosidl_typesupport_fastrtps_c__visibility_control.h -> /workspaces/quardruped/build/lio_sam/rosidl_typesupport_fastrtps_c/lio_sam/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+│   │   │   │       │   ├── rosidl_typesupport_fastrtps_cpp__visibility_control.h -> /workspaces/quardruped/build/lio_sam/rosidl_typesupport_fastrtps_cpp/lio_sam/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+│   │   │   │       │   └── rosidl_typesupport_introspection_c__visibility_control.h -> /workspaces/quardruped/build/lio_sam/rosidl_typesupport_introspection_c/lio_sam/msg/rosidl_typesupport_introspection_c__visibility_control.h
+│   │   │   │       └── srv
+│   │   │   │           ├── detail
+│   │   │   │           │   ├── save_map__builder.hpp -> /workspaces/quardruped/build/lio_sam/rosidl_generator_cpp/lio_sam/srv/detail/save_map__builder.hpp
+│   │   │   │           │   ├── save_map__functions.h -> /workspaces/quardruped/build/lio_sam/rosidl_generator_c/lio_sam/srv/detail/save_map__functions.h
+│   │   │   │           │   ├── save_map__rosidl_typesupport_fastrtps_c.h -> /workspaces/quardruped/build/lio_sam/rosidl_typesupport_fastrtps_c/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+│   │   │   │           │   ├── save_map__rosidl_typesupport_fastrtps_cpp.hpp -> /workspaces/quardruped/build/lio_sam/rosidl_typesupport_fastrtps_cpp/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+│   │   │   │           │   ├── save_map__rosidl_typesupport_introspection_c.h -> /workspaces/quardruped/build/lio_sam/rosidl_typesupport_introspection_c/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+│   │   │   │           │   ├── save_map__rosidl_typesupport_introspection_cpp.hpp -> /workspaces/quardruped/build/lio_sam/rosidl_typesupport_introspection_cpp/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+│   │   │   │           │   ├── save_map__struct.h -> /workspaces/quardruped/build/lio_sam/rosidl_generator_c/lio_sam/srv/detail/save_map__struct.h
+│   │   │   │           │   ├── save_map__struct.hpp -> /workspaces/quardruped/build/lio_sam/rosidl_generator_cpp/lio_sam/srv/detail/save_map__struct.hpp
+│   │   │   │           │   ├── save_map__traits.hpp -> /workspaces/quardruped/build/lio_sam/rosidl_generator_cpp/lio_sam/srv/detail/save_map__traits.hpp
+│   │   │   │           │   ├── save_map__type_support.h -> /workspaces/quardruped/build/lio_sam/rosidl_generator_c/lio_sam/srv/detail/save_map__type_support.h
+│   │   │   │           │   └── save_map__type_support.hpp -> /workspaces/quardruped/build/lio_sam/rosidl_generator_cpp/lio_sam/srv/detail/save_map__type_support.hpp
+│   │   │   │           ├── save_map.h -> /workspaces/quardruped/build/lio_sam/rosidl_generator_c/lio_sam/srv/save_map.h
+│   │   │   │           └── save_map.hpp -> /workspaces/quardruped/build/lio_sam/rosidl_generator_cpp/lio_sam/srv/save_map.hpp
+│   │   │   └── utility.hpp -> /workspaces/quardruped/src/LIO-SAM-ros2/include/utility.hpp
+│   │   ├── lib
+│   │   │   ├── liblio_sam__rosidl_generator_c.so
+│   │   │   ├── liblio_sam__rosidl_generator_py.so
+│   │   │   ├── liblio_sam__rosidl_typesupport_c.so
+│   │   │   ├── liblio_sam__rosidl_typesupport_cpp.so
+│   │   │   ├── liblio_sam__rosidl_typesupport_fastrtps_c.so
+│   │   │   ├── liblio_sam__rosidl_typesupport_fastrtps_cpp.so
+│   │   │   ├── liblio_sam__rosidl_typesupport_introspection_c.so
+│   │   │   ├── liblio_sam__rosidl_typesupport_introspection_cpp.so
+│   │   │   └── lio_sam
+│   │   │       ├── lio_sam_featureExtraction -> /workspaces/quardruped/build/lio_sam/lio_sam_featureExtraction
+│   │   │       ├── lio_sam_imageProjection -> /workspaces/quardruped/build/lio_sam/lio_sam_imageProjection
+│   │   │       ├── lio_sam_imuPreintegration -> /workspaces/quardruped/build/lio_sam/lio_sam_imuPreintegration
+│   │   │       └── lio_sam_mapOptimization -> /workspaces/quardruped/build/lio_sam/lio_sam_mapOptimization
+│   │   ├── local
+│   │   │   └── lib
+│   │   │       └── python3.10
+│   │   │           └── dist-packages
+│   │   │               ├── lio_sam
+│   │   │               │   ├── __init__.py -> /workspaces/quardruped/build/lio_sam/rosidl_generator_py/lio_sam/__init__.py
+│   │   │               │   ├── __pycache__
+│   │   │               │   │   └── __init__.cpython-310.pyc
+│   │   │               │   ├── _lio_sam_s.ep.rosidl_typesupport_c.c -> /workspaces/quardruped/build/lio_sam/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_c.c
+│   │   │               │   ├── _lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c -> /workspaces/quardruped/build/lio_sam/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c
+│   │   │               │   ├── _lio_sam_s.ep.rosidl_typesupport_introspection_c.c -> /workspaces/quardruped/build/lio_sam/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_introspection_c.c
+│   │   │               │   ├── liblio_sam__rosidl_generator_py.so -> /workspaces/quardruped/build/lio_sam/rosidl_generator_py/lio_sam/liblio_sam__rosidl_generator_py.so
+│   │   │               │   ├── lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so -> /workspaces/quardruped/build/lio_sam/rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+│   │   │               │   ├── lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so -> /workspaces/quardruped/build/lio_sam/rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+│   │   │               │   ├── lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so -> /workspaces/quardruped/build/lio_sam/rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+│   │   │               │   ├── msg
+│   │   │               │   │   ├── __init__.py -> /workspaces/quardruped/build/lio_sam/rosidl_generator_py/lio_sam/msg/__init__.py
+│   │   │               │   │   ├── __pycache__
+│   │   │               │   │   │   ├── __init__.cpython-310.pyc
+│   │   │               │   │   │   └── _cloud_info.cpython-310.pyc
+│   │   │               │   │   ├── _cloud_info.py -> /workspaces/quardruped/build/lio_sam/rosidl_generator_py/lio_sam/msg/_cloud_info.py
+│   │   │               │   │   └── _cloud_info_s.c -> /workspaces/quardruped/build/lio_sam/rosidl_generator_py/lio_sam/msg/_cloud_info_s.c
+│   │   │               │   └── srv
+│   │   │               │       ├── __init__.py -> /workspaces/quardruped/build/lio_sam/rosidl_generator_py/lio_sam/srv/__init__.py
+│   │   │               │       ├── __pycache__
+│   │   │               │       │   ├── __init__.cpython-310.pyc
+│   │   │               │       │   └── _save_map.cpython-310.pyc
+│   │   │               │       ├── _save_map.py -> /workspaces/quardruped/build/lio_sam/rosidl_generator_py/lio_sam/srv/_save_map.py
+│   │   │               │       └── _save_map_s.c -> /workspaces/quardruped/build/lio_sam/rosidl_generator_py/lio_sam/srv/_save_map_s.c
+│   │   │               └── lio_sam-1.0.0-py3.10.egg-info
+│   │   │                   ├── PKG-INFO -> /workspaces/quardruped/build/lio_sam/ament_cmake_python/lio_sam/lio_sam.egg-info/PKG-INFO
+│   │   │                   ├── SOURCES.txt -> /workspaces/quardruped/build/lio_sam/ament_cmake_python/lio_sam/lio_sam.egg-info/SOURCES.txt
+│   │   │                   ├── dependency_links.txt -> /workspaces/quardruped/build/lio_sam/ament_cmake_python/lio_sam/lio_sam.egg-info/dependency_links.txt
+│   │   │                   └── top_level.txt -> /workspaces/quardruped/build/lio_sam/ament_cmake_python/lio_sam/lio_sam.egg-info/top_level.txt
+│   │   └── share
+│   │       ├── ament_index
+│   │       │   └── resource_index
+│   │       │       ├── package_run_dependencies
+│   │       │       │   └── lio_sam -> /workspaces/quardruped/build/lio_sam/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/lio_sam
+│   │       │       ├── packages
+│   │       │       │   └── lio_sam -> /workspaces/quardruped/build/lio_sam/ament_cmake_index/share/ament_index/resource_index/packages/lio_sam
+│   │       │       ├── parent_prefix_path
+│   │       │       │   └── lio_sam -> /workspaces/quardruped/build/lio_sam/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/lio_sam
+│   │       │       └── rosidl_interfaces
+│   │       │           └── lio_sam -> /workspaces/quardruped/build/lio_sam/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/lio_sam
+│   │       ├── colcon-core
+│   │       │   └── packages
+│   │       │       └── lio_sam
+│   │       └── lio_sam
+│   │           ├── cmake
+│   │           │   ├── ament_cmake_export_dependencies-extras.cmake -> /workspaces/quardruped/build/lio_sam/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake
+│   │           │   ├── ament_cmake_export_include_directories-extras.cmake -> /workspaces/quardruped/build/lio_sam/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake
+│   │           │   ├── ament_cmake_export_libraries-extras.cmake -> /workspaces/quardruped/build/lio_sam/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake
+│   │           │   ├── ament_cmake_export_targets-extras.cmake -> /workspaces/quardruped/build/lio_sam/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake
+│   │           │   ├── export_lio_sam__rosidl_generator_cExport-release.cmake
+│   │           │   ├── export_lio_sam__rosidl_generator_cExport.cmake
+│   │           │   ├── export_lio_sam__rosidl_generator_cppExport.cmake
+│   │           │   ├── export_lio_sam__rosidl_generator_pyExport-release.cmake
+│   │           │   ├── export_lio_sam__rosidl_generator_pyExport.cmake
+│   │           │   ├── export_lio_sam__rosidl_typesupport_fastrtps_cExport-release.cmake
+│   │           │   ├── export_lio_sam__rosidl_typesupport_fastrtps_cExport.cmake
+│   │           │   ├── export_lio_sam__rosidl_typesupport_fastrtps_cppExport-release.cmake
+│   │           │   ├── export_lio_sam__rosidl_typesupport_fastrtps_cppExport.cmake
+│   │           │   ├── lio_samConfig-version.cmake -> /workspaces/quardruped/build/lio_sam/ament_cmake_core/lio_samConfig-version.cmake
+│   │           │   ├── lio_samConfig.cmake -> /workspaces/quardruped/build/lio_sam/ament_cmake_core/lio_samConfig.cmake
+│   │           │   ├── lio_sam__rosidl_typesupport_cExport-release.cmake
+│   │           │   ├── lio_sam__rosidl_typesupport_cExport.cmake
+│   │           │   ├── lio_sam__rosidl_typesupport_cppExport-release.cmake
+│   │           │   ├── lio_sam__rosidl_typesupport_cppExport.cmake
+│   │           │   ├── lio_sam__rosidl_typesupport_introspection_cExport-release.cmake
+│   │           │   ├── lio_sam__rosidl_typesupport_introspection_cExport.cmake
+│   │           │   ├── lio_sam__rosidl_typesupport_introspection_cppExport-release.cmake
+│   │           │   ├── lio_sam__rosidl_typesupport_introspection_cppExport.cmake
+│   │           │   ├── rosidl_cmake-extras.cmake -> /workspaces/quardruped/build/lio_sam/rosidl_cmake/rosidl_cmake-extras.cmake
+│   │           │   ├── rosidl_cmake_export_typesupport_libraries-extras.cmake -> /workspaces/quardruped/build/lio_sam/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+│   │           │   └── rosidl_cmake_export_typesupport_targets-extras.cmake -> /workspaces/quardruped/build/lio_sam/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+│   │           ├── config
+│   │           │   ├── doc
+│   │           │   │   ├── demo.gif -> /workspaces/quardruped/src/LIO-SAM-ros2/config/doc/demo.gif
+│   │           │   │   ├── device-boat.png -> /workspaces/quardruped/src/LIO-SAM-ros2/config/doc/device-boat.png
+│   │           │   │   ├── device-hand-2.png -> /workspaces/quardruped/src/LIO-SAM-ros2/config/doc/device-hand-2.png
+│   │           │   │   ├── device-hand.png -> /workspaces/quardruped/src/LIO-SAM-ros2/config/doc/device-hand.png
+│   │           │   │   ├── device-jackal.png -> /workspaces/quardruped/src/LIO-SAM-ros2/config/doc/device-jackal.png
+│   │           │   │   ├── gps-demo.gif -> /workspaces/quardruped/src/LIO-SAM-ros2/config/doc/gps-demo.gif
+│   │           │   │   ├── imu-debug.gif -> /workspaces/quardruped/src/LIO-SAM-ros2/config/doc/imu-debug.gif
+│   │           │   │   ├── imu-transform.png -> /workspaces/quardruped/src/LIO-SAM-ros2/config/doc/imu-transform.png
+│   │           │   │   ├── kitti-demo.gif -> /workspaces/quardruped/src/LIO-SAM-ros2/config/doc/kitti-demo.gif
+│   │           │   │   ├── kitti-map.png -> /workspaces/quardruped/src/LIO-SAM-ros2/config/doc/kitti-map.png
+│   │           │   │   ├── kitti2bag
+│   │           │   │   │   ├── README.md -> /workspaces/quardruped/src/LIO-SAM-ros2/config/doc/kitti2bag/README.md
+│   │           │   │   │   └── kitti2bag.py -> /workspaces/quardruped/src/LIO-SAM-ros2/config/doc/kitti2bag/kitti2bag.py
+│   │           │   │   ├── loop-closure-2.gif -> /workspaces/quardruped/src/LIO-SAM-ros2/config/doc/loop-closure-2.gif
+│   │           │   │   ├── loop-closure.gif -> /workspaces/quardruped/src/LIO-SAM-ros2/config/doc/loop-closure.gif
+│   │           │   │   ├── ouster-demo.gif -> /workspaces/quardruped/src/LIO-SAM-ros2/config/doc/ouster-demo.gif
+│   │           │   │   ├── ouster-device.jpg -> /workspaces/quardruped/src/LIO-SAM-ros2/config/doc/ouster-device.jpg
+│   │           │   │   ├── paper.pdf -> /workspaces/quardruped/src/LIO-SAM-ros2/config/doc/paper.pdf
+│   │           │   │   └── system.png -> /workspaces/quardruped/src/LIO-SAM-ros2/config/doc/system.png
+│   │           │   ├── params.yaml -> /workspaces/quardruped/src/LIO-SAM-ros2/config/params.yaml
+│   │           │   ├── robot.urdf.xacro -> /workspaces/quardruped/src/LIO-SAM-ros2/config/robot.urdf.xacro
+│   │           │   └── rviz2.rviz -> /workspaces/quardruped/src/LIO-SAM-ros2/config/rviz2.rviz
+│   │           ├── environment
+│   │           │   ├── ament_prefix_path.dsv -> /workspaces/quardruped/build/lio_sam/ament_cmake_environment_hooks/ament_prefix_path.dsv
+│   │           │   ├── ament_prefix_path.sh -> /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh
+│   │           │   ├── library_path.dsv -> /workspaces/quardruped/build/lio_sam/ament_cmake_environment_hooks/library_path.dsv
+│   │           │   ├── library_path.sh -> /opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh
+│   │           │   ├── path.dsv -> /workspaces/quardruped/build/lio_sam/ament_cmake_environment_hooks/path.dsv
+│   │           │   ├── path.sh -> /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh
+│   │           │   ├── pythonpath.dsv -> /workspaces/quardruped/build/lio_sam/ament_cmake_environment_hooks/pythonpath.dsv
+│   │           │   └── pythonpath.sh -> /workspaces/quardruped/build/lio_sam/ament_cmake_environment_hooks/pythonpath.sh
+│   │           ├── hook
+│   │           │   ├── cmake_prefix_path.dsv
+│   │           │   ├── cmake_prefix_path.ps1
+│   │           │   ├── cmake_prefix_path.sh
+│   │           │   ├── ld_library_path_lib.dsv
+│   │           │   ├── ld_library_path_lib.ps1
+│   │           │   └── ld_library_path_lib.sh
+│   │           ├── launch
+│   │           │   ├── __pycache__
+│   │           │   │   └── run.launch.cpython-310.pyc
+│   │           │   └── run.launch.py -> /workspaces/quardruped/src/LIO-SAM-ros2/launch/run.launch.py
+│   │           ├── local_setup.bash -> /workspaces/quardruped/build/lio_sam/ament_cmake_environment_hooks/local_setup.bash
+│   │           ├── local_setup.dsv -> /workspaces/quardruped/build/lio_sam/ament_cmake_environment_hooks/local_setup.dsv
+│   │           ├── local_setup.sh -> /workspaces/quardruped/build/lio_sam/ament_cmake_environment_hooks/local_setup.sh
+│   │           ├── local_setup.zsh -> /workspaces/quardruped/build/lio_sam/ament_cmake_environment_hooks/local_setup.zsh
+│   │           ├── msg
+│   │           │   ├── CloudInfo.idl -> /workspaces/quardruped/build/lio_sam/rosidl_adapter/lio_sam/msg/CloudInfo.idl
+│   │           │   └── CloudInfo.msg -> /workspaces/quardruped/src/LIO-SAM-ros2/msg/CloudInfo.msg
+│   │           ├── package.bash
+│   │           ├── package.dsv
+│   │           ├── package.ps1
+│   │           ├── package.sh
+│   │           ├── package.xml -> /workspaces/quardruped/src/LIO-SAM-ros2/package.xml
+│   │           ├── package.zsh
+│   │           └── srv
+│   │               ├── SaveMap.idl -> /workspaces/quardruped/build/lio_sam/rosidl_adapter/lio_sam/srv/SaveMap.idl
+│   │               ├── SaveMap.srv -> /workspaces/quardruped/src/LIO-SAM-ros2/srv/SaveMap.srv
+│   │               ├── SaveMap_Request.msg -> /workspaces/quardruped/build/lio_sam/rosidl_cmake/srv/SaveMap_Request.msg
+│   │               └── SaveMap_Response.msg -> /workspaces/quardruped/build/lio_sam/rosidl_cmake/srv/SaveMap_Response.msg
+│   ├── local_setup.bash
+│   ├── local_setup.ps1
+│   ├── local_setup.sh
+│   ├── local_setup.zsh
+│   ├── robot_control
+│   │   ├── lib
+│   │   │   └── robot_control
+│   │   │       ├── robot_control.launch.py -> /workspaces/quardruped/src/robot_control/launch/robot_control.launch.py
+│   │   │       └── robot_control.py -> /workspaces/quardruped/src/robot_control/scripts/robot_control.py
+│   │   └── share
+│   │       ├── ament_index
+│   │       │   └── resource_index
+│   │       │       ├── package_run_dependencies
+│   │       │       │   └── robot_control -> /workspaces/quardruped/build/robot_control/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot_control
+│   │       │       ├── packages
+│   │       │       │   └── robot_control -> /workspaces/quardruped/build/robot_control/ament_cmake_index/share/ament_index/resource_index/packages/robot_control
+│   │       │       └── parent_prefix_path
+│   │       │           └── robot_control -> /workspaces/quardruped/build/robot_control/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/robot_control
+│   │       ├── colcon-core
+│   │       │   └── packages
+│   │       │       └── robot_control
+│   │       └── robot_control
+│   │           ├── cmake
+│   │           │   ├── robot_controlConfig-version.cmake -> /workspaces/quardruped/build/robot_control/ament_cmake_core/robot_controlConfig-version.cmake
+│   │           │   └── robot_controlConfig.cmake -> /workspaces/quardruped/build/robot_control/ament_cmake_core/robot_controlConfig.cmake
+│   │           ├── environment
+│   │           │   ├── ament_prefix_path.dsv -> /workspaces/quardruped/build/robot_control/ament_cmake_environment_hooks/ament_prefix_path.dsv
+│   │           │   ├── ament_prefix_path.sh -> /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh
+│   │           │   ├── path.dsv -> /workspaces/quardruped/build/robot_control/ament_cmake_environment_hooks/path.dsv
+│   │           │   └── path.sh -> /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh
+│   │           ├── hook
+│   │           │   ├── cmake_prefix_path.dsv
+│   │           │   ├── cmake_prefix_path.ps1
+│   │           │   └── cmake_prefix_path.sh
+│   │           ├── launch
+│   │           │   └── robot_control.launch.py -> /workspaces/quardruped/src/robot_control/launch/robot_control.launch.py
+│   │           ├── local_setup.bash -> /workspaces/quardruped/build/robot_control/ament_cmake_environment_hooks/local_setup.bash
+│   │           ├── local_setup.dsv -> /workspaces/quardruped/build/robot_control/ament_cmake_environment_hooks/local_setup.dsv
+│   │           ├── local_setup.sh -> /workspaces/quardruped/build/robot_control/ament_cmake_environment_hooks/local_setup.sh
+│   │           ├── local_setup.zsh -> /workspaces/quardruped/build/robot_control/ament_cmake_environment_hooks/local_setup.zsh
+│   │           ├── package.bash
+│   │           ├── package.dsv
+│   │           ├── package.ps1
+│   │           ├── package.sh
+│   │           ├── package.xml -> /workspaces/quardruped/src/robot_control/package.xml
+│   │           ├── package.zsh
+│   │           └── scripts
+│   │               ├── robot_control.py -> /workspaces/quardruped/src/robot_control/scripts/robot_control.py
+│   │               └── robot_control_ref.py -> /workspaces/quardruped/src/robot_control/scripts/robot_control_ref.py
+│   ├── robot_description
+│   │   └── share
+│   │       ├── ament_index
+│   │       │   └── resource_index
+│   │       │       ├── package_run_dependencies
+│   │       │       │   └── robot_description -> /workspaces/quardruped/build/robot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot_description
+│   │       │       ├── packages
+│   │       │       │   └── robot_description -> /workspaces/quardruped/build/robot_description/ament_cmake_index/share/ament_index/resource_index/packages/robot_description
+│   │       │       └── parent_prefix_path
+│   │       │           └── robot_description -> /workspaces/quardruped/build/robot_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/robot_description
+│   │       ├── colcon-core
+│   │       │   └── packages
+│   │       │       └── robot_description
+│   │       └── robot_description
+│   │           ├── cmake
+│   │           │   ├── robot_descriptionConfig-version.cmake -> /workspaces/quardruped/build/robot_description/ament_cmake_core/robot_descriptionConfig-version.cmake
+│   │           │   └── robot_descriptionConfig.cmake -> /workspaces/quardruped/build/robot_description/ament_cmake_core/robot_descriptionConfig.cmake
+│   │           ├── environment
+│   │           │   ├── ament_prefix_path.dsv -> /workspaces/quardruped/build/robot_description/ament_cmake_environment_hooks/ament_prefix_path.dsv
+│   │           │   ├── ament_prefix_path.sh -> /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh
+│   │           │   ├── path.dsv -> /workspaces/quardruped/build/robot_description/ament_cmake_environment_hooks/path.dsv
+│   │           │   └── path.sh -> /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh
+│   │           ├── hook
+│   │           │   ├── cmake_prefix_path.dsv
+│   │           │   ├── cmake_prefix_path.ps1
+│   │           │   └── cmake_prefix_path.sh
+│   │           ├── launch
+│   │           │   └── robot_launch.py -> /workspaces/quardruped/src/robot_description/launch/robot_launch.py
+│   │           ├── local_setup.bash -> /workspaces/quardruped/build/robot_description/ament_cmake_environment_hooks/local_setup.bash
+│   │           ├── local_setup.dsv -> /workspaces/quardruped/build/robot_description/ament_cmake_environment_hooks/local_setup.dsv
+│   │           ├── local_setup.sh -> /workspaces/quardruped/build/robot_description/ament_cmake_environment_hooks/local_setup.sh
+│   │           ├── local_setup.zsh -> /workspaces/quardruped/build/robot_description/ament_cmake_environment_hooks/local_setup.zsh
+│   │           ├── meshes
+│   │           │   ├── DAE
+│   │           │   │   ├── base
+│   │           │   │   │   ├── base_link.dae -> /workspaces/quardruped/src/robot_description/meshes/DAE/base/base_link.dae
+│   │           │   │   │   └── base_link_ref.dae -> /workspaces/quardruped/src/robot_description/meshes/DAE/base/base_link_ref.dae
+│   │           │   │   ├── camera
+│   │           │   │   │   └── camera.dae -> /workspaces/quardruped/src/robot_description/meshes/DAE/camera/camera.dae
+│   │           │   │   ├── camera_stay
+│   │           │   │   │   └── camera_stay.dae -> /workspaces/quardruped/src/robot_description/meshes/DAE/camera_stay/camera_stay.dae
+│   │           │   │   ├── front_wheel
+│   │           │   │   │   └── wheel.dae -> /workspaces/quardruped/src/robot_description/meshes/DAE/front_wheel/wheel.dae
+│   │           │   │   ├── rear_wheel
+│   │           │   │   │   └── wheel.dae -> /workspaces/quardruped/src/robot_description/meshes/DAE/rear_wheel/wheel.dae
+│   │           │   │   └── suspension
+│   │           │   │       ├── front_left_sus.dae -> /workspaces/quardruped/src/robot_description/meshes/DAE/suspension/front_left_sus.dae
+│   │           │   │       └── front_right_sus.dae -> /workspaces/quardruped/src/robot_description/meshes/DAE/suspension/front_right_sus.dae
+│   │           │   └── STL
+│   │           │       ├── base
+│   │           │       │   ├── base_link.stl -> /workspaces/quardruped/src/robot_description/meshes/STL/base/base_link.stl
+│   │           │       │   └── base_link_ref.stl -> /workspaces/quardruped/src/robot_description/meshes/STL/base/base_link_ref.stl
+│   │           │       ├── camera
+│   │           │       │   └── camera.stl -> /workspaces/quardruped/src/robot_description/meshes/STL/camera/camera.stl
+│   │           │       ├── front_wheel
+│   │           │       │   └── wheel.stl -> /workspaces/quardruped/src/robot_description/meshes/STL/front_wheel/wheel.stl
+│   │           │       ├── rear_wheel
+│   │           │       │   └── wheel.stl -> /workspaces/quardruped/src/robot_description/meshes/STL/rear_wheel/wheel.stl
+│   │           │       └── suspension
+│   │           │           ├── front_left_sus.stl -> /workspaces/quardruped/src/robot_description/meshes/STL/suspension/front_left_sus.stl
+│   │           │           └── front_right_sus.stl -> /workspaces/quardruped/src/robot_description/meshes/STL/suspension/front_right_sus.stl
+│   │           ├── package.bash
+│   │           ├── package.dsv
+│   │           ├── package.ps1
+│   │           ├── package.sh
+│   │           ├── package.xml -> /workspaces/quardruped/src/robot_description/package.xml
+│   │           ├── package.zsh
+│   │           ├── robot
+│   │           │   ├── robot.sdf -> /workspaces/quardruped/src/robot_description/robot/robot.sdf
+│   │           │   ├── robot.urdf -> /workspaces/quardruped/src/robot_description/robot/robot.urdf
+│   │           │   └── robot.urdf.xacro -> /workspaces/quardruped/src/robot_description/robot/robot.urdf.xacro
+│   │           └── urdf
+│   │               ├── IMU
+│   │               │   ├── IMU.gazebo.xacro -> /workspaces/quardruped/src/robot_description/urdf/IMU/IMU.gazebo.xacro
+│   │               │   └── IMU.urdf.xacro -> /workspaces/quardruped/src/robot_description/urdf/IMU/IMU.urdf.xacro
+│   │               ├── base
+│   │               │   ├── base.gazebo.xacro -> /workspaces/quardruped/src/robot_description/urdf/base/base.gazebo.xacro
+│   │               │   └── base.urdf.xacro -> /workspaces/quardruped/src/robot_description/urdf/base/base.urdf.xacro
+│   │               ├── front_wheel
+│   │               │   ├── front_wheel.gazebo.xacro -> /workspaces/quardruped/src/robot_description/urdf/front_wheel/front_wheel.gazebo.xacro
+│   │               │   └── front_wheel.urdf.xacro -> /workspaces/quardruped/src/robot_description/urdf/front_wheel/front_wheel.urdf.xacro
+│   │               ├── rear_wheel
+│   │               │   ├── rear_wheel.gazebo.xacro -> /workspaces/quardruped/src/robot_description/urdf/rear_wheel/rear_wheel.gazebo.xacro
+│   │               │   ├── rear_wheel.transmission.xacro -> /workspaces/quardruped/src/robot_description/urdf/rear_wheel/rear_wheel.transmission.xacro
+│   │               │   └── rear_wheel.urdf.xacro -> /workspaces/quardruped/src/robot_description/urdf/rear_wheel/rear_wheel.urdf.xacro
+│   │               └── suspension
+│   │                   ├── suspension.gazebo.xacro -> /workspaces/quardruped/src/robot_description/urdf/suspension/suspension.gazebo.xacro
+│   │                   └── suspension.urdf.xacro -> /workspaces/quardruped/src/robot_description/urdf/suspension/suspension.urdf.xacro
+│   ├── robot_gazebo
+│   │   ├── lib
+│   │   │   └── robot_gazebo
+│   │   │       └── robot_sim.launch.py -> /workspaces/quardruped/src/robot_gazebo/launch/robot_sim.launch.py
+│   │   └── share
+│   │       ├── ament_index
+│   │       │   └── resource_index
+│   │       │       ├── package_run_dependencies
+│   │       │       │   └── robot_gazebo -> /workspaces/quardruped/build/robot_gazebo/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot_gazebo
+│   │       │       ├── packages
+│   │       │       │   └── robot_gazebo -> /workspaces/quardruped/build/robot_gazebo/ament_cmake_index/share/ament_index/resource_index/packages/robot_gazebo
+│   │       │       └── parent_prefix_path
+│   │       │           └── robot_gazebo -> /workspaces/quardruped/build/robot_gazebo/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/robot_gazebo
+│   │       ├── colcon-core
+│   │       │   └── packages
+│   │       │       └── robot_gazebo
+│   │       └── robot_gazebo
+│   │           ├── cmake
+│   │           │   ├── robot_gazeboConfig-version.cmake -> /workspaces/quardruped/build/robot_gazebo/ament_cmake_core/robot_gazeboConfig-version.cmake
+│   │           │   └── robot_gazeboConfig.cmake -> /workspaces/quardruped/build/robot_gazebo/ament_cmake_core/robot_gazeboConfig.cmake
+│   │           ├── environment
+│   │           │   ├── ament_prefix_path.dsv -> /workspaces/quardruped/build/robot_gazebo/ament_cmake_environment_hooks/ament_prefix_path.dsv
+│   │           │   ├── ament_prefix_path.sh -> /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh
+│   │           │   ├── path.dsv -> /workspaces/quardruped/build/robot_gazebo/ament_cmake_environment_hooks/path.dsv
+│   │           │   └── path.sh -> /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh
+│   │           ├── hook
+│   │           │   ├── cmake_prefix_path.dsv
+│   │           │   ├── cmake_prefix_path.ps1
+│   │           │   └── cmake_prefix_path.sh
+│   │           ├── launch
+│   │           │   ├── robot_sim.launch.py -> /workspaces/quardruped/src/robot_gazebo/launch/robot_sim.launch.py
+│   │           │   ├── robot_sim_ref.launch.py -> /workspaces/quardruped/src/robot_gazebo/launch/robot_sim_ref.launch.py
+│   │           │   └── robot_state_publisher.launch.py -> /workspaces/quardruped/src/robot_gazebo/launch/robot_state_publisher.launch.py
+│   │           ├── local_setup.bash -> /workspaces/quardruped/build/robot_gazebo/ament_cmake_environment_hooks/local_setup.bash
+│   │           ├── local_setup.dsv -> /workspaces/quardruped/build/robot_gazebo/ament_cmake_environment_hooks/local_setup.dsv
+│   │           ├── local_setup.sh -> /workspaces/quardruped/build/robot_gazebo/ament_cmake_environment_hooks/local_setup.sh
+│   │           ├── local_setup.zsh -> /workspaces/quardruped/build/robot_gazebo/ament_cmake_environment_hooks/local_setup.zsh
+│   │           ├── models
+│   │           │   ├── robot
+│   │           │   │   ├── meshes
+│   │           │   │   │   ├── DAE
+│   │           │   │   │   │   ├── base
+│   │           │   │   │   │   │   ├── base_link.dae -> /workspaces/quardruped/src/robot_gazebo/models/robot/meshes/DAE/base/base_link.dae
+│   │           │   │   │   │   │   └── base_link_ref.dae -> /workspaces/quardruped/src/robot_gazebo/models/robot/meshes/DAE/base/base_link_ref.dae
+│   │           │   │   │   │   ├── camera
+│   │           │   │   │   │   │   └── camera.dae -> /workspaces/quardruped/src/robot_gazebo/models/robot/meshes/DAE/camera/camera.dae
+│   │           │   │   │   │   ├── camera_stay
+│   │           │   │   │   │   │   └── camera_stay.dae -> /workspaces/quardruped/src/robot_gazebo/models/robot/meshes/DAE/camera_stay/camera_stay.dae
+│   │           │   │   │   │   ├── front_wheel
+│   │           │   │   │   │   │   └── wheel.dae -> /workspaces/quardruped/src/robot_gazebo/models/robot/meshes/DAE/front_wheel/wheel.dae
+│   │           │   │   │   │   ├── rear_wheel
+│   │           │   │   │   │   │   └── wheel.dae -> /workspaces/quardruped/src/robot_gazebo/models/robot/meshes/DAE/rear_wheel/wheel.dae
+│   │           │   │   │   │   └── suspension
+│   │           │   │   │   │       ├── front_left_sus.dae -> /workspaces/quardruped/src/robot_gazebo/models/robot/meshes/DAE/suspension/front_left_sus.dae
+│   │           │   │   │   │       └── front_right_sus.dae -> /workspaces/quardruped/src/robot_gazebo/models/robot/meshes/DAE/suspension/front_right_sus.dae
+│   │           │   │   │   └── STL
+│   │           │   │   │       ├── base
+│   │           │   │   │       │   ├── base_link.stl -> /workspaces/quardruped/src/robot_gazebo/models/robot/meshes/STL/base/base_link.stl
+│   │           │   │   │       │   └── base_link_ref.stl -> /workspaces/quardruped/src/robot_gazebo/models/robot/meshes/STL/base/base_link_ref.stl
+│   │           │   │   │       ├── camera
+│   │           │   │   │       │   └── camera.stl -> /workspaces/quardruped/src/robot_gazebo/models/robot/meshes/STL/camera/camera.stl
+│   │           │   │   │       ├── front_wheel
+│   │           │   │   │       │   └── wheel.stl -> /workspaces/quardruped/src/robot_gazebo/models/robot/meshes/STL/front_wheel/wheel.stl
+│   │           │   │   │       ├── rear_wheel
+│   │           │   │   │       │   └── wheel.stl -> /workspaces/quardruped/src/robot_gazebo/models/robot/meshes/STL/rear_wheel/wheel.stl
+│   │           │   │   │       └── suspension
+│   │           │   │   │           ├── front_left_sus.stl -> /workspaces/quardruped/src/robot_gazebo/models/robot/meshes/STL/suspension/front_left_sus.stl
+│   │           │   │   │           └── front_right_sus.stl -> /workspaces/quardruped/src/robot_gazebo/models/robot/meshes/STL/suspension/front_right_sus.stl
+│   │           │   │   ├── model.config -> /workspaces/quardruped/src/robot_gazebo/models/robot/model.config
+│   │           │   │   └── robot.sdf -> /workspaces/quardruped/src/robot_gazebo/models/robot/robot.sdf
+│   │           │   └── velodyne_description
+│   │           │       ├── CHANGELOG.rst -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/CHANGELOG.rst
+│   │           │       ├── CMakeLists.txt -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/CMakeLists.txt
+│   │           │       ├── launch
+│   │           │       │   └── example-launch.py -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/launch/example-launch.py
+│   │           │       ├── meshes
+│   │           │       │   ├── HDL32E_base.dae -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/meshes/HDL32E_base.dae
+│   │           │       │   ├── HDL32E_base.stl -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/meshes/HDL32E_base.stl
+│   │           │       │   ├── HDL32E_scan.dae -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/meshes/HDL32E_scan.dae
+│   │           │       │   ├── HDL32E_scan.stl -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/meshes/HDL32E_scan.stl
+│   │           │       │   ├── VLP16_base_1.dae -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/meshes/VLP16_base_1.dae
+│   │           │       │   ├── VLP16_base_1.stl -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/meshes/VLP16_base_1.stl
+│   │           │       │   ├── VLP16_base_2.dae -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/meshes/VLP16_base_2.dae
+│   │           │       │   ├── VLP16_base_2.stl -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/meshes/VLP16_base_2.stl
+│   │           │       │   ├── VLP16_scan.dae -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/meshes/VLP16_scan.dae
+│   │           │       │   └── VLP16_scan.stl -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/meshes/VLP16_scan.stl
+│   │           │       ├── models
+│   │           │       │   └── rs_robot
+│   │           │       │       ├── meshes
+│   │           │       │       │   ├── DAE
+│   │           │       │       │   │   ├── base
+│   │           │       │       │   │   │   ├── base_link.dae -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/DAE/base/base_link.dae
+│   │           │       │       │   │   │   └── base_linkOLD.dae -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/DAE/base/base_linkOLD.dae
+│   │           │       │       │   │   ├── lidar_base
+│   │           │       │       │   │   │   └── YDlidar_base.dae -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/DAE/lidar_base/YDlidar_base.dae
+│   │           │       │       │   │   ├── lidar_head
+│   │           │       │       │   │   │   └── YDlidar_head.dae -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/DAE/lidar_head/YDlidar_head.dae
+│   │           │       │       │   │   ├── sensors
+│   │           │       │       │   │   │   ├── camera
+│   │           │       │       │   │   │   │   └── camera.dae -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/DAE/sensors/camera/camera.dae
+│   │           │       │       │   │   │   ├── front_lrf
+│   │           │       │       │   │   │   │   ├── front_lrf.dae -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/DAE/sensors/front_lrf/front_lrf.dae
+│   │           │       │       │   │   │   │   └── lrf_texture.png -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/DAE/sensors/front_lrf/lrf_texture.png
+│   │           │       │       │   │   │   ├── gim30
+│   │           │       │       │   │   │   │   ├── gim30.dae -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/DAE/sensors/gim30/gim30.dae
+│   │           │       │       │   │   │   │   └── gim30_lrf_texture.png -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/DAE/sensors/gim30/gim30_lrf_texture.png
+│   │           │       │       │   │   │   ├── gps
+│   │           │       │       │   │   │   │   ├── gps.dae -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/DAE/sensors/gps/gps.dae
+│   │           │       │       │   │   │   │   └── gps_texture.png -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/DAE/sensors/gps/gps_texture.png
+│   │           │       │       │   │   │   └── rear_lrf
+│   │           │       │       │   │   │       ├── rear_lrf.dae -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/DAE/sensors/rear_lrf/rear_lrf.dae
+│   │           │       │       │   │   │       └── urg_texture.png -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/DAE/sensors/rear_lrf/urg_texture.png
+│   │           │       │       │   │   ├── suspension
+│   │           │       │       │   │   │   ├── front_left_link.dae -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/DAE/suspension/front_left_link.dae
+│   │           │       │       │   │   │   ├── front_right_link.dae -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/DAE/suspension/front_right_link.dae
+│   │           │       │       │   │   │   ├── rear_left_link.dae -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/DAE/suspension/rear_left_link.dae
+│   │           │       │       │   │   │   └── rear_right_link.dae -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/DAE/suspension/rear_right_link.dae
+│   │           │       │       │   │   └── wheel
+│   │           │       │       │   │       └── wheel_link.dae -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/DAE/wheel/wheel_link.dae
+│   │           │       │       │   └── STL
+│   │           │       │       │       ├── base
+│   │           │       │       │       │   ├── base_link.stl -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/STL/base/base_link.stl
+│   │           │       │       │       │   └── base_link_old.stl -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/STL/base/base_link_old.stl
+│   │           │       │       │       ├── lidar_base
+│   │           │       │       │       │   └── YDlidar_base.stl -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/STL/lidar_base/YDlidar_base.stl
+│   │           │       │       │       ├── lidar_head
+│   │           │       │       │       │   └── YDlidar_head v4.stl -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/STL/lidar_head/YDlidar_head v4.stl
+│   │           │       │       │       ├── sensors
+│   │           │       │       │       │   ├── front_lrf
+│   │           │       │       │       │   │   └── front_lrf.stl -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/STL/sensors/front_lrf/front_lrf.stl
+│   │           │       │       │       │   ├── gim30
+│   │           │       │       │       │   │   └── gim30.stl -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/STL/sensors/gim30/gim30.stl
+│   │           │       │       │       │   ├── gps
+│   │           │       │       │       │   │   └── gps.stl -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/STL/sensors/gps/gps.stl
+│   │           │       │       │       │   └── rear_lrf
+│   │           │       │       │       │       └── rear_lrf.stl -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/STL/sensors/rear_lrf/rear_lrf.stl
+│   │           │       │       │       ├── suspension
+│   │           │       │       │       │   ├── FRONT_LEFT_LINKSTL.stl -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/STL/suspension/FRONT_LEFT_LINKSTL.stl
+│   │           │       │       │       │   ├── FRONT_RIGHT_LINKSTL.stl -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/STL/suspension/FRONT_RIGHT_LINKSTL.stl
+│   │           │       │       │       │   ├── REAR_LEFT_LINKSTL.stl -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/STL/suspension/REAR_LEFT_LINKSTL.stl
+│   │           │       │       │       │   ├── REAR_RIGHT_LINKSTL.stl -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/STL/suspension/REAR_RIGHT_LINKSTL.stl
+│   │           │       │       │       │   └── sus_link.stl -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/STL/suspension/sus_link.stl
+│   │           │       │       │       └── wheel
+│   │           │       │       │           └── robot_wheel.stl -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/meshes/STL/wheel/robot_wheel.stl
+│   │           │       │       ├── model.config -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/model.config
+│   │           │       │       └── rs_robot.sdf -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/models/rs_robot/rs_robot.sdf
+│   │           │       ├── package.xml -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/package.xml
+│   │           │       ├── rviz
+│   │           │       │   └── example.rviz -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/rviz/example.rviz
+│   │           │       ├── urdf
+│   │           │       │   ├── HDL-32E.urdf.xacro -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/urdf/HDL-32E.urdf.xacro
+│   │           │       │   ├── VLP-16.urdf.xacro -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/urdf/VLP-16.urdf.xacro
+│   │           │       │   ├── VLP-32C.urdf.xacro -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/urdf/VLP-32C.urdf.xacro
+│   │           │       │   └── example.urdf.xacro -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/urdf/example.urdf.xacro
+│   │           │       └── world
+│   │           │           ├── example.world -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/world/example.world
+│   │           │           └── lio_sam.model -> /workspaces/quardruped/src/robot_gazebo/models/velodyne_description/world/lio_sam.model
+│   │           ├── package.bash
+│   │           ├── package.dsv
+│   │           ├── package.ps1
+│   │           ├── package.sh
+│   │           ├── package.xml -> /workspaces/quardruped/src/robot_gazebo/package.xml
+│   │           ├── package.zsh
+│   │           ├── urdf
+│   │           │   └── robot.urdf -> /workspaces/quardruped/src/robot_gazebo/urdf/robot.urdf
+│   │           └── worlds
+│   │               ├── lio_world.model -> /workspaces/quardruped/src/robot_gazebo/worlds/lio_world.model
+│   │               └── lio_world_ref.model -> /workspaces/quardruped/src/robot_gazebo/worlds/lio_world_ref.model
+│   ├── setup.bash
+│   ├── setup.ps1
+│   ├── setup.sh
+│   ├── setup.zsh
+│   ├── velodyne_description
+│   │   └── share
+│   │       ├── ament_index
+│   │       │   └── resource_index
+│   │       │       ├── package_run_dependencies
+│   │       │       │   └── velodyne_description -> /workspaces/quardruped/build/velodyne_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/velodyne_description
+│   │       │       ├── packages
+│   │       │       │   └── velodyne_description -> /workspaces/quardruped/build/velodyne_description/ament_cmake_index/share/ament_index/resource_index/packages/velodyne_description
+│   │       │       └── parent_prefix_path
+│   │       │           └── velodyne_description -> /workspaces/quardruped/build/velodyne_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/velodyne_description
+│   │       ├── colcon-core
+│   │       │   └── packages
+│   │       │       └── velodyne_description
+│   │       └── velodyne_description
+│   │           ├── cmake
+│   │           │   ├── velodyne_descriptionConfig-version.cmake -> /workspaces/quardruped/build/velodyne_description/ament_cmake_core/velodyne_descriptionConfig-version.cmake
+│   │           │   └── velodyne_descriptionConfig.cmake -> /workspaces/quardruped/build/velodyne_description/ament_cmake_core/velodyne_descriptionConfig.cmake
+│   │           ├── environment
+│   │           │   ├── ament_prefix_path.dsv -> /workspaces/quardruped/build/velodyne_description/ament_cmake_environment_hooks/ament_prefix_path.dsv
+│   │           │   ├── ament_prefix_path.sh -> /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh
+│   │           │   ├── path.dsv -> /workspaces/quardruped/build/velodyne_description/ament_cmake_environment_hooks/path.dsv
+│   │           │   └── path.sh -> /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh
+│   │           ├── hook
+│   │           │   ├── cmake_prefix_path.dsv
+│   │           │   ├── cmake_prefix_path.ps1
+│   │           │   └── cmake_prefix_path.sh
+│   │           ├── launch
+│   │           │   └── example-launch.py -> /workspaces/quardruped/src/velodyne_simulator/velodyne_description/launch/example-launch.py
+│   │           ├── local_setup.bash -> /workspaces/quardruped/build/velodyne_description/ament_cmake_environment_hooks/local_setup.bash
+│   │           ├── local_setup.dsv -> /workspaces/quardruped/build/velodyne_description/ament_cmake_environment_hooks/local_setup.dsv
+│   │           ├── local_setup.sh -> /workspaces/quardruped/build/velodyne_description/ament_cmake_environment_hooks/local_setup.sh
+│   │           ├── local_setup.zsh -> /workspaces/quardruped/build/velodyne_description/ament_cmake_environment_hooks/local_setup.zsh
+│   │           ├── meshes
+│   │           │   ├── HDL32E_base.dae -> /workspaces/quardruped/src/velodyne_simulator/velodyne_description/meshes/HDL32E_base.dae
+│   │           │   ├── HDL32E_base.stl -> /workspaces/quardruped/src/velodyne_simulator/velodyne_description/meshes/HDL32E_base.stl
+│   │           │   ├── HDL32E_scan.dae -> /workspaces/quardruped/src/velodyne_simulator/velodyne_description/meshes/HDL32E_scan.dae
+│   │           │   ├── HDL32E_scan.stl -> /workspaces/quardruped/src/velodyne_simulator/velodyne_description/meshes/HDL32E_scan.stl
+│   │           │   ├── VLP16_base_1.dae -> /workspaces/quardruped/src/velodyne_simulator/velodyne_description/meshes/VLP16_base_1.dae
+│   │           │   ├── VLP16_base_1.stl -> /workspaces/quardruped/src/velodyne_simulator/velodyne_description/meshes/VLP16_base_1.stl
+│   │           │   ├── VLP16_base_2.dae -> /workspaces/quardruped/src/velodyne_simulator/velodyne_description/meshes/VLP16_base_2.dae
+│   │           │   ├── VLP16_base_2.stl -> /workspaces/quardruped/src/velodyne_simulator/velodyne_description/meshes/VLP16_base_2.stl
+│   │           │   ├── VLP16_scan.dae -> /workspaces/quardruped/src/velodyne_simulator/velodyne_description/meshes/VLP16_scan.dae
+│   │           │   └── VLP16_scan.stl -> /workspaces/quardruped/src/velodyne_simulator/velodyne_description/meshes/VLP16_scan.stl
+│   │           ├── package.bash
+│   │           ├── package.dsv
+│   │           ├── package.ps1
+│   │           ├── package.sh
+│   │           ├── package.xml -> /workspaces/quardruped/src/velodyne_simulator/velodyne_description/package.xml
+│   │           ├── package.zsh
+│   │           ├── rviz
+│   │           │   └── example.rviz -> /workspaces/quardruped/src/velodyne_simulator/velodyne_description/rviz/example.rviz
+│   │           ├── urdf
+│   │           │   ├── HDL-32E.urdf.xacro -> /workspaces/quardruped/src/velodyne_simulator/velodyne_description/urdf/HDL-32E.urdf.xacro
+│   │           │   ├── VLP-16.urdf.xacro -> /workspaces/quardruped/src/velodyne_simulator/velodyne_description/urdf/VLP-16.urdf.xacro
+│   │           │   ├── VLP-32C.urdf.xacro -> /workspaces/quardruped/src/velodyne_simulator/velodyne_description/urdf/VLP-32C.urdf.xacro
+│   │           │   └── example.urdf.xacro -> /workspaces/quardruped/src/velodyne_simulator/velodyne_description/urdf/example.urdf.xacro
+│   │           └── world
+│   │               └── example.world -> /workspaces/quardruped/src/velodyne_simulator/velodyne_description/world/example.world
+│   ├── velodyne_gazebo_plugins
+│   │   ├── include
+│   │   │   └── velodyne_gazebo_plugins
+│   │   │       └── GazeboRosVelodyneLaser.h -> /workspaces/quardruped/src/velodyne_simulator/velodyne_gazebo_plugins/include/velodyne_gazebo_plugins/GazeboRosVelodyneLaser.h
+│   │   ├── lib
+│   │   │   └── libgazebo_ros_velodyne_laser.so -> /workspaces/quardruped/build/velodyne_gazebo_plugins/libgazebo_ros_velodyne_laser.so
+│   │   └── share
+│   │       ├── ament_index
+│   │       │   └── resource_index
+│   │       │       ├── package_run_dependencies
+│   │       │       │   └── velodyne_gazebo_plugins -> /workspaces/quardruped/build/velodyne_gazebo_plugins/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/velodyne_gazebo_plugins
+│   │       │       ├── packages
+│   │       │       │   └── velodyne_gazebo_plugins -> /workspaces/quardruped/build/velodyne_gazebo_plugins/ament_cmake_index/share/ament_index/resource_index/packages/velodyne_gazebo_plugins
+│   │       │       └── parent_prefix_path
+│   │       │           └── velodyne_gazebo_plugins -> /workspaces/quardruped/build/velodyne_gazebo_plugins/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/velodyne_gazebo_plugins
+│   │       ├── colcon-core
+│   │       │   └── packages
+│   │       │       └── velodyne_gazebo_plugins
+│   │       └── velodyne_gazebo_plugins
+│   │           ├── cmake
+│   │           │   ├── ament_cmake_export_dependencies-extras.cmake -> /workspaces/quardruped/build/velodyne_gazebo_plugins/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake
+│   │           │   ├── ament_cmake_export_include_directories-extras.cmake -> /workspaces/quardruped/build/velodyne_gazebo_plugins/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake
+│   │           │   ├── ament_cmake_export_libraries-extras.cmake -> /workspaces/quardruped/build/velodyne_gazebo_plugins/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake
+│   │           │   ├── velodyne_gazebo_pluginsConfig-version.cmake -> /workspaces/quardruped/build/velodyne_gazebo_plugins/ament_cmake_core/velodyne_gazebo_pluginsConfig-version.cmake
+│   │           │   └── velodyne_gazebo_pluginsConfig.cmake -> /workspaces/quardruped/build/velodyne_gazebo_plugins/ament_cmake_core/velodyne_gazebo_pluginsConfig.cmake
+│   │           ├── environment
+│   │           │   ├── ament_prefix_path.dsv -> /workspaces/quardruped/build/velodyne_gazebo_plugins/ament_cmake_environment_hooks/ament_prefix_path.dsv
+│   │           │   ├── ament_prefix_path.sh -> /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh
+│   │           │   ├── library_path.dsv -> /workspaces/quardruped/build/velodyne_gazebo_plugins/ament_cmake_environment_hooks/library_path.dsv
+│   │           │   ├── library_path.sh -> /opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh
+│   │           │   ├── path.dsv -> /workspaces/quardruped/build/velodyne_gazebo_plugins/ament_cmake_environment_hooks/path.dsv
+│   │           │   └── path.sh -> /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh
+│   │           ├── hook
+│   │           │   ├── cmake_prefix_path.dsv
+│   │           │   ├── cmake_prefix_path.ps1
+│   │           │   ├── cmake_prefix_path.sh
+│   │           │   ├── ld_library_path_lib.dsv
+│   │           │   ├── ld_library_path_lib.ps1
+│   │           │   └── ld_library_path_lib.sh
+│   │           ├── local_setup.bash -> /workspaces/quardruped/build/velodyne_gazebo_plugins/ament_cmake_environment_hooks/local_setup.bash
+│   │           ├── local_setup.dsv -> /workspaces/quardruped/build/velodyne_gazebo_plugins/ament_cmake_environment_hooks/local_setup.dsv
+│   │           ├── local_setup.sh -> /workspaces/quardruped/build/velodyne_gazebo_plugins/ament_cmake_environment_hooks/local_setup.sh
+│   │           ├── local_setup.zsh -> /workspaces/quardruped/build/velodyne_gazebo_plugins/ament_cmake_environment_hooks/local_setup.zsh
+│   │           ├── package.bash
+│   │           ├── package.dsv
+│   │           ├── package.ps1
+│   │           ├── package.sh
+│   │           ├── package.xml -> /workspaces/quardruped/src/velodyne_simulator/velodyne_gazebo_plugins/package.xml
+│   │           └── package.zsh
+│   └── velodyne_simulator
+│       └── share
+│           ├── ament_index
+│           │   └── resource_index
+│           │       ├── package_run_dependencies
+│           │       │   └── velodyne_simulator -> /workspaces/quardruped/build/velodyne_simulator/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/velodyne_simulator
+│           │       ├── packages
+│           │       │   └── velodyne_simulator -> /workspaces/quardruped/build/velodyne_simulator/ament_cmake_index/share/ament_index/resource_index/packages/velodyne_simulator
+│           │       └── parent_prefix_path
+│           │           └── velodyne_simulator -> /workspaces/quardruped/build/velodyne_simulator/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/velodyne_simulator
+│           ├── colcon-core
+│           │   └── packages
+│           │       └── velodyne_simulator
+│           └── velodyne_simulator
+│               ├── cmake
+│               │   ├── velodyne_simulatorConfig-version.cmake -> /workspaces/quardruped/build/velodyne_simulator/ament_cmake_core/velodyne_simulatorConfig-version.cmake
+│               │   └── velodyne_simulatorConfig.cmake -> /workspaces/quardruped/build/velodyne_simulator/ament_cmake_core/velodyne_simulatorConfig.cmake
+│               ├── environment
+│               │   ├── ament_prefix_path.dsv -> /workspaces/quardruped/build/velodyne_simulator/ament_cmake_environment_hooks/ament_prefix_path.dsv
+│               │   ├── ament_prefix_path.sh -> /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh
+│               │   ├── path.dsv -> /workspaces/quardruped/build/velodyne_simulator/ament_cmake_environment_hooks/path.dsv
+│               │   └── path.sh -> /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh
+│               ├── hook
+│               │   ├── cmake_prefix_path.dsv
+│               │   ├── cmake_prefix_path.ps1
+│               │   └── cmake_prefix_path.sh
+│               ├── local_setup.bash -> /workspaces/quardruped/build/velodyne_simulator/ament_cmake_environment_hooks/local_setup.bash
+│               ├── local_setup.dsv -> /workspaces/quardruped/build/velodyne_simulator/ament_cmake_environment_hooks/local_setup.dsv
+│               ├── local_setup.sh -> /workspaces/quardruped/build/velodyne_simulator/ament_cmake_environment_hooks/local_setup.sh
+│               ├── local_setup.zsh -> /workspaces/quardruped/build/velodyne_simulator/ament_cmake_environment_hooks/local_setup.zsh
+│               ├── package.bash
+│               ├── package.dsv
+│               ├── package.ps1
+│               ├── package.sh
+│               ├── package.xml -> /workspaces/quardruped/src/velodyne_simulator/velodyne_simulator/package.xml
+│               └── package.zsh
+├── log
+│   ├── COLCON_IGNORE
+│   ├── build_2025-11-15_03-35-50
+│   │   ├── custom_robot_description
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   ├── events.log
+│   │   ├── husky_minimal
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   ├── lio_sam
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   ├── logger_all.log
+│   │   ├── robot_description
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   ├── velodyne_description
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── velodyne_gazebo_plugins
+│   │       ├── command.log
+│   │       ├── stderr.log
+│   │       ├── stdout.log
+│   │       ├── stdout_stderr.log
+│   │       └── streams.log
+│   ├── build_2025-11-15_03-45-10
+│   │   ├── custom_robot_description
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   ├── events.log
+│   │   ├── husky_minimal
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   ├── lio_sam
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   ├── logger_all.log
+│   │   ├── robot_control
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   ├── robot_description
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   ├── robot_gazebo
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   ├── velodyne_description
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   ├── velodyne_gazebo_plugins
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── velodyne_simulator
+│   │       ├── command.log
+│   │       ├── stderr.log
+│   │       ├── stdout.log
+│   │       ├── stdout_stderr.log
+│   │       └── streams.log
+│   ├── build_2025-11-15_04-03-53
+│   │   ├── events.log
+│   │   ├── husky_minimal
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── latest -> latest_build
+│   └── latest_build -> build_2025-11-15_04-03-53
+├── src
+│   ├── LIO-SAM-ros2
+│   │   ├── CMakeLists.txt
+│   │   ├── LICENSE
+│   │   ├── Readme.md
+│   │   ├── config
+│   │   │   ├── doc
+│   │   │   │   ├── demo.gif
+│   │   │   │   ├── device-boat.png
+│   │   │   │   ├── device-hand-2.png
+│   │   │   │   ├── device-hand.png
+│   │   │   │   ├── device-jackal.png
+│   │   │   │   ├── gps-demo.gif
+│   │   │   │   ├── imu-debug.gif
+│   │   │   │   ├── imu-transform.png
+│   │   │   │   ├── kitti-demo.gif
+│   │   │   │   ├── kitti-map.png
+│   │   │   │   ├── kitti2bag
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   └── kitti2bag.py
+│   │   │   │   ├── loop-closure-2.gif
+│   │   │   │   ├── loop-closure.gif
+│   │   │   │   ├── ouster-demo.gif
+│   │   │   │   ├── ouster-device.jpg
+│   │   │   │   ├── paper.pdf
+│   │   │   │   └── system.png
+│   │   │   ├── params.yaml
+│   │   │   ├── robot.urdf.xacro
+│   │   │   └── rviz2.rviz
+│   │   ├── include
+│   │   │   └── utility.hpp
+│   │   ├── launch
+│   │   │   └── run.launch.py
+│   │   ├── msg
+│   │   │   └── CloudInfo.msg
+│   │   ├── package.xml
+│   │   ├── src
+│   │   │   ├── featureExtraction.cpp
+│   │   │   ├── imageProjection.cpp
+│   │   │   ├── imuPreintegration.cpp
+│   │   │   └── mapOptmization.cpp
+│   │   └── srv
+│   │       └── SaveMap.srv
+│   ├── custom_robot_description
+│   │   ├── CMakeLists.txt
+│   │   ├── config
+│   │   │   └── lio_sam_params.yaml
+│   │   ├── include
+│   │   │   └── custom_robot_description
+│   │   ├── launch
+│   │   │   ├── custom_robot_sim.launch.py
+│   │   │   └── lio_sam_custom.launch.py
+│   │   ├── meshes
+│   │   ├── models
+│   │   │   └── warehouse_floor
+│   │   │       ├── materials
+│   │   │       │   ├── scripts
+│   │   │       │   │   └── warehouse_floor.material
+│   │   │       │   └── textures
+│   │   │       │       └── map.png
+│   │   │       ├── model.config
+│   │   │       └── model.sdf
+│   │   ├── package.xml
+│   │   ├── src
+│   │   ├── urdf
+│   │   │   ├── base
+│   │   │   ├── custom_robot.urdf.xacro
+│   │   │   ├── sensors
+│   │   │   │   ├── imu.urdf.xacro
+│   │   │   │   └── velodyne.urdf.xacro
+│   │   │   └── wheels
+│   │   └── worlds
+│   │       ├── custom_warehouse.world
+│   │       └── warehouse.world
+│   ├── dynamic_logistics_warehouse-main
+│   │   ├── CMakeLists.txt
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── docs
+│   │   │   └── images
+│   │   │       ├── gzweb_aws_warehouse.png
+│   │   │       ├── models_boxes.png
+│   │   │       ├── models_buckets.png
+│   │   │       ├── models_ceiling_lamp.png
+│   │   │       ├── models_desk.png
+│   │   │       ├── models_lift.png
+│   │   │       ├── models_shelves.png
+│   │   │       ├── models_trashcan.png
+│   │   │       ├── models_warehouse_ground_paint.png
+│   │   │       └── small_warehouse_gazebo.png
+│   │   ├── launch
+│   │   │   └── logistics_warehouse.launch
+│   │   ├── maps
+│   │   │   ├── 002
+│   │   │   │   ├── map.pgm
+│   │   │   │   └── map.yaml
+│   │   │   └── 005
+│   │   │       ├── map.pgm
+│   │   │       ├── map.yaml
+│   │   │       ├── map_rotated.pgm
+│   │   │       └── map_rotated.png
+│   │   ├── models
+│   │   │   ├── aws_robomaker_warehouse_ClutteringA_01
+│   │   │   │   ├── materials
+│   │   │   │   │   └── textures
+│   │   │   │   │       ├── aws_robomaker_warehouse_ClutteringA_01.png
+│   │   │   │   │       ├── aws_robomaker_warehouse_ClutteringA_02.png
+│   │   │   │   │       └── aws_robomaker_warehouse_ClutteringA_03.png
+│   │   │   │   ├── meshes
+│   │   │   │   │   ├── aws_robomaker_warehouse_ClutteringA_01_collision.DAE
+│   │   │   │   │   └── aws_robomaker_warehouse_ClutteringA_01_visual.DAE
+│   │   │   │   ├── model.config
+│   │   │   │   └── model.sdf
+│   │   │   ├── aws_robomaker_warehouse_ClutteringC_01
+│   │   │   │   ├── materials
+│   │   │   │   │   └── textures
+│   │   │   │   │       ├── aws_robomaker_warehouse_ClutteringC_01.png
+│   │   │   │   │       └── aws_robomaker_warehouse_ClutteringC_02.png
+│   │   │   │   ├── meshes
+│   │   │   │   │   ├── aws_robomaker_warehouse_ClutteringC_01_collision.DAE
+│   │   │   │   │   └── aws_robomaker_warehouse_ClutteringC_01_visual.DAE
+│   │   │   │   ├── model.config
+│   │   │   │   └── model.sdf
+│   │   │   ├── aws_robomaker_warehouse_ClutteringD_01
+│   │   │   │   ├── materials
+│   │   │   │   │   └── textures
+│   │   │   │   │       ├── aws_robomaker_warehouse_ClutteringD_01.png
+│   │   │   │   │       └── aws_robomaker_warehouse_ClutteringD_02.png
+│   │   │   │   ├── meshes
+│   │   │   │   │   ├── aws_robomaker_warehouse_ClutteringD_01_collision.DAE
+│   │   │   │   │   └── aws_robomaker_warehouse_ClutteringD_01_visual.DAE
+│   │   │   │   ├── model.config
+│   │   │   │   └── model.sdf
+│   │   │   ├── aws_robomaker_warehouse_DeskC_01
+│   │   │   │   ├── materials
+│   │   │   │   │   └── textures
+│   │   │   │   │       ├── aws_robomaker_warehouse_DeskC_01.png
+│   │   │   │   │       ├── aws_robomaker_warehouse_DeskC_02.png
+│   │   │   │   │       ├── aws_robomaker_warehouse_DeskC_03.png
+│   │   │   │   │       ├── aws_robomaker_warehouse_DeskC_03.psd
+│   │   │   │   │       └── aws_robomaker_warehouse_DeskC_04.png
+│   │   │   │   ├── meshes
+│   │   │   │   │   ├── aws_robomaker_warehouse_DeskC_01_collision.DAE
+│   │   │   │   │   └── aws_robomaker_warehouse_DeskC_01_visual.DAE
+│   │   │   │   ├── model.config
+│   │   │   │   └── model.sdf
+│   │   │   ├── aws_robomaker_warehouse_GroundB_01
+│   │   │   │   ├── materials
+│   │   │   │   │   └── textures
+│   │   │   │   │       ├── aws_robomaker_warehouse_GroundB_01.png
+│   │   │   │   │       └── aws_robomaker_warehouse_GroundB_02.png
+│   │   │   │   ├── meshes
+│   │   │   │   │   ├── aws_robomaker_warehouse_GroundB_01_collision.DAE
+│   │   │   │   │   └── aws_robomaker_warehouse_GroundB_01_visual.DAE
+│   │   │   │   ├── model.config
+│   │   │   │   └── model.sdf
+│   │   │   ├── aws_robomaker_warehouse_Lamp_01
+│   │   │   │   ├── materials
+│   │   │   │   │   └── textures
+│   │   │   │   │       └── aws_robomaker_warehouse_Lamp_01.png
+│   │   │   │   ├── meshes
+│   │   │   │   │   ├── aws_robomaker_warehouse_Lamp_01_collision.DAE
+│   │   │   │   │   └── aws_robomaker_warehouse_Lamp_01_visual.DAE
+│   │   │   │   ├── model.config
+│   │   │   │   └── model.sdf
+│   │   │   ├── aws_robomaker_warehouse_PalletJackB_01
+│   │   │   │   ├── materials
+│   │   │   │   │   └── textures
+│   │   │   │   │       ├── aws_robomaker_warehouse_PalletJackB_01.png
+│   │   │   │   │       └── aws_robomaker_warehouse_PalletJackB_02.png
+│   │   │   │   ├── meshes
+│   │   │   │   │   ├── aws_robomaker_warehouse_PalletJackB_01_collision.DAE
+│   │   │   │   │   └── aws_robomaker_warehouse_PalletJackB_01_visual.DAE
+│   │   │   │   ├── model.config
+│   │   │   │   └── model.sdf
+│   │   │   ├── aws_robomaker_warehouse_RoofB_01
+│   │   │   │   ├── materials
+│   │   │   │   │   └── textures
+│   │   │   │   │       └── aws_robomaker_warehouse_RoofB_01.png
+│   │   │   │   ├── meshes
+│   │   │   │   │   ├── aws_robomaker_warehouse_RoofB_01_collision.DAE
+│   │   │   │   │   └── aws_robomaker_warehouse_RoofB_01_visual.DAE
+│   │   │   │   ├── model.config
+│   │   │   │   └── model.sdf
+│   │   │   ├── aws_robomaker_warehouse_ShelfD_01
+│   │   │   │   ├── materials
+│   │   │   │   │   └── textures
+│   │   │   │   │       ├── aws_robomaker_warehouse_ShelfD_01.png
+│   │   │   │   │       ├── aws_robomaker_warehouse_ShelfD_02.png
+│   │   │   │   │       ├── aws_robomaker_warehouse_ShelfD_03.png
+│   │   │   │   │       └── aws_robomaker_warehouse_ShelfD_04.png
+│   │   │   │   ├── model.config
+│   │   │   │   └── model.sdf
+│   │   │   ├── aws_robomaker_warehouse_ShelfE_01
+│   │   │   │   ├── materials
+│   │   │   │   │   └── textures
+│   │   │   │   │       ├── aws_robomaker_warehouse_ShelfE_01.png
+│   │   │   │   │       ├── aws_robomaker_warehouse_ShelfE_02.png
+│   │   │   │   │       ├── aws_robomaker_warehouse_ShelfE_03.png
+│   │   │   │   │       └── aws_robomaker_warehouse_ShelfE_04.png
+│   │   │   │   ├── meshes
+│   │   │   │   │   ├── aws_robomaker_warehouse_ShelfE_01_collision.DAE
+│   │   │   │   │   └── aws_robomaker_warehouse_ShelfE_01_visual.DAE
+│   │   │   │   ├── model.config
+│   │   │   │   └── model.sdf
+│   │   │   ├── aws_robomaker_warehouse_ShelfF_01
+│   │   │   │   ├── materials
+│   │   │   │   │   └── textures
+│   │   │   │   │       ├── aws_robomaker_warehouse_ShelfF_01.png
+│   │   │   │   │       ├── aws_robomaker_warehouse_ShelfF_02.png
+│   │   │   │   │       └── aws_robomaker_warehouse_ShelfF_03.png
+│   │   │   │   ├── meshes
+│   │   │   │   │   ├── aws_robomaker_warehouse_ShelfF_01_collision.DAE
+│   │   │   │   │   └── aws_robomaker_warehouse_ShelfF_01_visual.DAE
+│   │   │   │   ├── model.config
+│   │   │   │   └── model.sdf
+│   │   │   ├── aws_robomaker_warehouse_TrashCanC_01
+│   │   │   │   ├── materials
+│   │   │   │   │   └── textures
+│   │   │   │   │       └── aws_robomaker_warehouse_TrashCanC_01.png
+│   │   │   │   ├── meshes
+│   │   │   │   │   ├── aws_robomaker_warehouse_TrashCanC_01_collision.DAE
+│   │   │   │   │   └── aws_robomaker_warehouse_TrashCanC_01_visual.DAE
+│   │   │   │   ├── model.config
+│   │   │   │   └── model.sdf
+│   │   │   └── aws_robomaker_warehouse_WallB_01
+│   │   │       ├── materials
+│   │   │       │   └── textures
+│   │   │       │       └── aws_robomaker_warehouse_WallB_01.png
+│   │   │       ├── meshes
+│   │   │       │   ├── aws_robomaker_warehouse_WallB_01_collision.DAE
+│   │   │       │   └── aws_robomaker_warehouse_WallB_01_visual.DAE
+│   │   │       ├── model.config
+│   │   │       └── model.sdf
+│   │   ├── package.xml
+│   │   ├── rviz
+│   │   │   └── basic_data.rviz
+│   │   └── worlds
+│   │       └── warehouse.world
+│   ├── husky_minimal
+│   │   ├── CMakeLists.txt
+│   │   ├── config
+│   │   │   ├── husky_controllers.yaml
+│   │   │   └── lio_sam_params.yaml
+│   │   ├── include
+│   │   │   └── husky_minimal
+│   │   ├── launch
+│   │   │   ├── gazebo_husky.launch.py
+│   │   │   ├── husky_lio_sam_full.launch.py
+│   │   │   ├── joystick.launch.py
+│   │   │   ├── lio_sam_husky.launch.py
+│   │   │   ├── rviz_husky.launch.py
+│   │   │   └── teleop.launch.py
+│   │   ├── manual.txt
+│   │   ├── meshes
+│   │   │   ├── accessories
+│   │   │   │   ├── 300_mm_sensor_arch.dae
+│   │   │   │   ├── 300_mm_sensor_arch.stl
+│   │   │   │   ├── 510_mm_sensor_arch.dae
+│   │   │   │   ├── 510_mm_sensor_arch.stl
+│   │   │   │   ├── hokuyo_ust10.stl
+│   │   │   │   ├── lidar_mount.stl
+│   │   │   │   ├── lms1xx_mount.dae
+│   │   │   │   ├── lms1xx_mount.stl
+│   │   │   │   └── wibotic_bumper.stl
+│   │   │   ├── base_link.dae
+│   │   │   ├── base_link.stl
+│   │   │   ├── bracket_extension_20.stl
+│   │   │   ├── bracket_extension_40.stl
+│   │   │   ├── bracket_extension_60.stl
+│   │   │   ├── bracket_extension_80.stl
+│   │   │   ├── bracket_horizontal.stl
+│   │   │   ├── bracket_horizontal_large.stl
+│   │   │   ├── bracket_vertical.stl
+│   │   │   ├── bumper.dae
+│   │   │   ├── bumper_extension.dae
+│   │   │   ├── large_top_plate.dae
+│   │   │   ├── large_top_plate_collision.stl
+│   │   │   ├── pacs_full_riser.stl
+│   │   │   ├── pacs_partial_riser.stl
+│   │   │   ├── pacs_top_plate.stl
+│   │   │   ├── top_chassis.dae
+│   │   │   ├── top_chassis.stl
+│   │   │   ├── top_plate.dae
+│   │   │   ├── top_plate.stl
+│   │   │   ├── user_rail.dae
+│   │   │   ├── user_rail.stl
+│   │   │   ├── wheel.dae
+│   │   │   └── wheel.stl
+│   │   ├── package.xml
+│   │   ├── rviz
+│   │   │   └── husky.rviz
+│   │   ├── src
+│   │   ├── tree_husky.txt
+│   │   └── urdf
+│   │       ├── empty.urdf
+│   │       ├── husky_ros2.urdf.xacro
+│   │       ├── pacs.urdf.xacro
+│   │       ├── sensors
+│   │       │   ├── imu.urdf.xacro
+│   │       │   └── velodyne.urdf.xacro
+│   │       └── wheel.urdf.xacro
+│   ├── robot_control
+│   │   ├── CMakeLists.txt
+│   │   ├── launch
+│   │   │   └── robot_control.launch.py
+│   │   ├── package.xml
+│   │   └── scripts
+│   │       ├── robot_control.py
+│   │       └── robot_control_ref.py
+│   ├── robot_description
+│   │   ├── CMakeLists.txt
+│   │   ├── launch
+│   │   │   └── robot_launch.py
+│   │   ├── meshes
+│   │   │   ├── DAE
+│   │   │   │   ├── base
+│   │   │   │   │   ├── base_link.dae
+│   │   │   │   │   └── base_link_ref.dae
+│   │   │   │   ├── camera
+│   │   │   │   │   └── camera.dae
+│   │   │   │   ├── camera_stay
+│   │   │   │   │   └── camera_stay.dae
+│   │   │   │   ├── front_wheel
+│   │   │   │   │   └── wheel.dae
+│   │   │   │   ├── rear_wheel
+│   │   │   │   │   └── wheel.dae
+│   │   │   │   └── suspension
+│   │   │   │       ├── front_left_sus.dae
+│   │   │   │       └── front_right_sus.dae
+│   │   │   └── STL
+│   │   │       ├── base
+│   │   │       │   ├── base_link.stl
+│   │   │       │   └── base_link_ref.stl
+│   │   │       ├── camera
+│   │   │       │   └── camera.stl
+│   │   │       ├── front_wheel
+│   │   │       │   └── wheel.stl
+│   │   │       ├── rear_wheel
+│   │   │       │   └── wheel.stl
+│   │   │       └── suspension
+│   │   │           ├── front_left_sus.stl
+│   │   │           └── front_right_sus.stl
+│   │   ├── package.xml
+│   │   ├── robot
+│   │   │   ├── robot.sdf
+│   │   │   ├── robot.urdf
+│   │   │   └── robot.urdf.xacro
+│   │   └── urdf
+│   │       ├── IMU
+│   │       │   ├── IMU.gazebo.xacro
+│   │       │   └── IMU.urdf.xacro
+│   │       ├── base
+│   │       │   ├── base.gazebo.xacro
+│   │       │   └── base.urdf.xacro
+│   │       ├── front_wheel
+│   │       │   ├── front_wheel.gazebo.xacro
+│   │       │   └── front_wheel.urdf.xacro
+│   │       ├── rear_wheel
+│   │       │   ├── rear_wheel.gazebo.xacro
+│   │       │   ├── rear_wheel.transmission.xacro
+│   │       │   └── rear_wheel.urdf.xacro
+│   │       └── suspension
+│   │           ├── suspension.gazebo.xacro
+│   │           └── suspension.urdf.xacro
+│   ├── robot_gazebo
+│   │   ├── CMakeLists.txt
+│   │   ├── launch
+│   │   │   ├── robot_sim.launch.py
+│   │   │   ├── robot_sim_ref.launch.py
+│   │   │   └── robot_state_publisher.launch.py
+│   │   ├── models
+│   │   │   ├── robot
+│   │   │   │   ├── meshes
+│   │   │   │   │   ├── DAE
+│   │   │   │   │   │   ├── base
+│   │   │   │   │   │   │   ├── base_link.dae
+│   │   │   │   │   │   │   └── base_link_ref.dae
+│   │   │   │   │   │   ├── camera
+│   │   │   │   │   │   │   └── camera.dae
+│   │   │   │   │   │   ├── camera_stay
+│   │   │   │   │   │   │   └── camera_stay.dae
+│   │   │   │   │   │   ├── front_wheel
+│   │   │   │   │   │   │   └── wheel.dae
+│   │   │   │   │   │   ├── rear_wheel
+│   │   │   │   │   │   │   └── wheel.dae
+│   │   │   │   │   │   └── suspension
+│   │   │   │   │   │       ├── front_left_sus.dae
+│   │   │   │   │   │       └── front_right_sus.dae
+│   │   │   │   │   └── STL
+│   │   │   │   │       ├── base
+│   │   │   │   │       │   ├── base_link.stl
+│   │   │   │   │       │   └── base_link_ref.stl
+│   │   │   │   │       ├── camera
+│   │   │   │   │       │   └── camera.stl
+│   │   │   │   │       ├── front_wheel
+│   │   │   │   │       │   └── wheel.stl
+│   │   │   │   │       ├── rear_wheel
+│   │   │   │   │       │   └── wheel.stl
+│   │   │   │   │       └── suspension
+│   │   │   │   │           ├── front_left_sus.stl
+│   │   │   │   │           └── front_right_sus.stl
+│   │   │   │   ├── model.config
+│   │   │   │   └── robot.sdf
+│   │   │   └── velodyne_description
+│   │   │       ├── CHANGELOG.rst
+│   │   │       ├── CMakeLists.txt
+│   │   │       ├── launch
+│   │   │       │   └── example-launch.py
+│   │   │       ├── meshes
+│   │   │       │   ├── HDL32E_base.dae
+│   │   │       │   ├── HDL32E_base.stl
+│   │   │       │   ├── HDL32E_scan.dae
+│   │   │       │   ├── HDL32E_scan.stl
+│   │   │       │   ├── VLP16_base_1.dae
+│   │   │       │   ├── VLP16_base_1.stl
+│   │   │       │   ├── VLP16_base_2.dae
+│   │   │       │   ├── VLP16_base_2.stl
+│   │   │       │   ├── VLP16_scan.dae
+│   │   │       │   └── VLP16_scan.stl
+│   │   │       ├── models
+│   │   │       │   └── rs_robot
+│   │   │       │       ├── meshes
+│   │   │       │       │   ├── DAE
+│   │   │       │       │   │   ├── base
+│   │   │       │       │   │   │   ├── base_link.dae
+│   │   │       │       │   │   │   └── base_linkOLD.dae
+│   │   │       │       │   │   ├── lidar_base
+│   │   │       │       │   │   │   └── YDlidar_base.dae
+│   │   │       │       │   │   ├── lidar_head
+│   │   │       │       │   │   │   └── YDlidar_head.dae
+│   │   │       │       │   │   ├── sensors
+│   │   │       │       │   │   │   ├── camera
+│   │   │       │       │   │   │   │   └── camera.dae
+│   │   │       │       │   │   │   ├── front_lrf
+│   │   │       │       │   │   │   │   ├── front_lrf.dae
+│   │   │       │       │   │   │   │   └── lrf_texture.png
+│   │   │       │       │   │   │   ├── gim30
+│   │   │       │       │   │   │   │   ├── gim30.dae
+│   │   │       │       │   │   │   │   └── gim30_lrf_texture.png
+│   │   │       │       │   │   │   ├── gps
+│   │   │       │       │   │   │   │   ├── gps.dae
+│   │   │       │       │   │   │   │   └── gps_texture.png
+│   │   │       │       │   │   │   └── rear_lrf
+│   │   │       │       │   │   │       ├── rear_lrf.dae
+│   │   │       │       │   │   │       └── urg_texture.png
+│   │   │       │       │   │   ├── suspension
+│   │   │       │       │   │   │   ├── front_left_link.dae
+│   │   │       │       │   │   │   ├── front_right_link.dae
+│   │   │       │       │   │   │   ├── rear_left_link.dae
+│   │   │       │       │   │   │   └── rear_right_link.dae
+│   │   │       │       │   │   └── wheel
+│   │   │       │       │   │       └── wheel_link.dae
+│   │   │       │       │   └── STL
+│   │   │       │       │       ├── base
+│   │   │       │       │       │   ├── base_link.stl
+│   │   │       │       │       │   └── base_link_old.stl
+│   │   │       │       │       ├── lidar_base
+│   │   │       │       │       │   └── YDlidar_base.stl
+│   │   │       │       │       ├── lidar_head
+│   │   │       │       │       │   └── YDlidar_head v4.stl
+│   │   │       │       │       ├── sensors
+│   │   │       │       │       │   ├── front_lrf
+│   │   │       │       │       │   │   └── front_lrf.stl
+│   │   │       │       │       │   ├── gim30
+│   │   │       │       │       │   │   └── gim30.stl
+│   │   │       │       │       │   ├── gps
+│   │   │       │       │       │   │   └── gps.stl
+│   │   │       │       │       │   └── rear_lrf
+│   │   │       │       │       │       └── rear_lrf.stl
+│   │   │       │       │       ├── suspension
+│   │   │       │       │       │   ├── FRONT_LEFT_LINKSTL.stl
+│   │   │       │       │       │   ├── FRONT_RIGHT_LINKSTL.stl
+│   │   │       │       │       │   ├── REAR_LEFT_LINKSTL.stl
+│   │   │       │       │       │   ├── REAR_RIGHT_LINKSTL.stl
+│   │   │       │       │       │   └── sus_link.stl
+│   │   │       │       │       └── wheel
+│   │   │       │       │           └── robot_wheel.stl
+│   │   │       │       ├── model.config
+│   │   │       │       └── rs_robot.sdf
+│   │   │       ├── package.xml
+│   │   │       ├── rviz
+│   │   │       │   └── example.rviz
+│   │   │       ├── urdf
+│   │   │       │   ├── HDL-32E.urdf.xacro
+│   │   │       │   ├── VLP-16.urdf.xacro
+│   │   │       │   ├── VLP-32C.urdf.xacro
+│   │   │       │   └── example.urdf.xacro
+│   │   │       └── world
+│   │   │           ├── example.world
+│   │   │           └── lio_sam.model
+│   │   ├── package.xml
+│   │   ├── urdf
+│   │   │   └── robot.urdf
+│   │   └── worlds
+│   │       ├── lio_world.model
+│   │       └── lio_world_ref.model
+│   └── velodyne_simulator
+│       ├── LICENSE
+│       ├── README.md
+│       ├── Readme.md
+│       ├── bitbucket-pipelines.yml
+│       ├── gazebo_upgrade.md
+│       ├── img
+│       │   ├── gpu.png
+│       │   └── rviz.png
+│       ├── velodyne_description
+│       │   ├── CHANGELOG.rst
+│       │   ├── CMakeLists.txt
+│       │   ├── launch
+│       │   │   └── example-launch.py
+│       │   ├── meshes
+│       │   │   ├── HDL32E_base.dae
+│       │   │   ├── HDL32E_base.stl
+│       │   │   ├── HDL32E_scan.dae
+│       │   │   ├── HDL32E_scan.stl
+│       │   │   ├── VLP16_base_1.dae
+│       │   │   ├── VLP16_base_1.stl
+│       │   │   ├── VLP16_base_2.dae
+│       │   │   ├── VLP16_base_2.stl
+│       │   │   ├── VLP16_scan.dae
+│       │   │   └── VLP16_scan.stl
+│       │   ├── package.xml
+│       │   ├── rviz
+│       │   │   └── example.rviz
+│       │   ├── urdf
+│       │   │   ├── HDL-32E.urdf.xacro
+│       │   │   ├── VLP-16.urdf.xacro
+│       │   │   ├── VLP-32C.urdf.xacro
+│       │   │   └── example.urdf.xacro
+│       │   └── world
+│       │       └── example.world
+│       ├── velodyne_gazebo_plugins
+│       │   ├── CHANGELOG.rst
+│       │   ├── CMakeLists.txt
+│       │   ├── include
+│       │   │   └── velodyne_gazebo_plugins
+│       │   │       └── GazeboRosVelodyneLaser.h
+│       │   ├── package.xml
+│       │   └── src
+│       │       └── GazeboRosVelodyneLaser.cpp
+│       └── velodyne_simulator
+│           ├── CHANGELOG.rst
+│           ├── CMakeLists.txt
+│           └── package.xml
+└── tree_repo.txt
+
+845 directories, 1953 files

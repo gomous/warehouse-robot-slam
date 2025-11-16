@@ -13,6 +13,11 @@ source install/setup.bash
 ros2 run joy joy_node --ros-args -p device_id:=0
 [INFO] [1763180627.293118813] [joy_node]: Opened joystick: Nintendo Co., Ltd. Pro Controller.  deadzone: 0.050000
 
+#Terminal 3
+ ros2 run joy_linux joy_linux_node --ros-args -p dev:=/dev/input/js0
+
+ this is a better option
+
 
 
 
